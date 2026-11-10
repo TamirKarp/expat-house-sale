@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Expat House Sale | Make us an offer</title>
+  <meta name="description" content="Everything must go. Have a look at what we have for sale and make us an offer. We consider all offers.">
+  <meta property="og:title" content="Make us an offer! Everything must go">
+  <meta property="og:description" content="Have a look at what we have for sale and make us an offer. We consider all offers.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8F%B7%EF%B8%8F%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="hero">
+    <div class="wrap">
+      <p class="eyebrow">Expat house sale</p>
+      <h1>Make us an offer!</h1>
+      <p class="sub">Everything must go</p>
+      <p><a class="cta" href="#items">See what is left &darr;</a></p>
+    </div>
+  </header>
+
+  <section class="intro">
+    <div class="wrap">
+      <h2>We consider all offers.</h2>
+      <p>Nothing here has a fixed price. Tap anything you like and tell us what you would pay. Big offers, small offers, offers on a few things at once: we will look at every one.</p>
+    </div>
+  </section>
+
+  <main>
+    <section id="items" class="wrap">
+      <h2 class="section-title">Still available <span id="count" class="count"></span></h2>
+      <div id="grid" class="grid"></div>
+      <p id="empty" class="empty" hidden>New things are being added. Please check back soon.</p>
+    </section>
+
+    <section id="sold-section" class="wrap" hidden>
+      <h2 class="section-title">Already gone</h2>
+      <div id="sold-grid" class="grid"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <p class="footer-title">Cannot see what you are after?</p>
+      <p>Get in touch and ask. <a id="footer-email" href="#">Email us</a> or <a id="footer-wa" href="#" target="_blank" rel="noopener">message us on WhatsApp</a>.</p>
+    </div>
+  </footer>
+
+  <dialog id="offer" aria-labelledby="offer-heading">
+    <button type="button" class="close" id="offer-close" aria-label="Close">&times;</button>
+    <div class="offer-media">
+      <img id="offer-img" alt="">
+      <div class="offer-thumbs" id="offer-thumbs" hidden></div>
+    </div>
+    <div class="offer-body">
+      <p class="eyebrow" id="offer-item"></p>
+      <h2 id="offer-heading">Make me an offer</h2>
+      <p>Tell us what you would pay. We consider all offers.</p>
+      <a class="btn btn-email" id="offer-email" href="#">Email your offer</a>
+      <a class="btn btn-wa" id="offer-wa" href="#" target="_blank" rel="noopener">WhatsApp your offer</a>
+    </div>
+  </dialog>
+
+  <script src="config.js"></script>
+  <script src="items.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+{
+  "name": "expat-house-sale",
+  "private": true,
+  "description": "Static for-sale site for expathousesale.com. Make us an offer.",
+  "scripts": {
+    "build": "node build.js"
+  }
+}
