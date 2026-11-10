@@ -197,6 +197,7 @@ window.ITEMS = [
         "h": 800
       }
     ],
+    "price": "AED 13,000",
     "description": [
       "2011 Mitsubishi Pajero GLS with GCC specifications, in great condition.",
       "Expat family car, well maintained, no off-road.",

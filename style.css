@@ -150,6 +150,7 @@ button.tile { cursor: pointer; transition: transform 0.15s ease, box-shadow 0.15
 
 /* Feature row: an item flagged "last" in details.json sits alone, full width, at the bottom */
 .featured:empty { display: none; }
+.featured { margin-top: clamp(2.5rem, 7vw, 5rem); padding-top: clamp(2.5rem, 7vw, 4rem); border-top: 2px solid rgb(22 19 15 / 0.12); }
 .featured .tile { margin: 0; }
 @media (min-width: 760px) {
   .featured .tile { display: grid; grid-template-columns: 1.4fr 1fr; align-items: stretch; }
