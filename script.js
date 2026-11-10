@@ -189,9 +189,49 @@
   });
 
   // Render
-  const grid = document.getElementById("grid");
+  const roomsEl = document.getElementById("rooms");
+  const roomNav = document.getElementById("room-nav");
   const featured = document.getElementById("featured");
-  available.forEach((item) => (item.last ? featured : grid).append(makeTile(item)));
+  const ROOM_ORDER = ["Kitchen", "Living room", "Bedroom"];
+
+  // Group the available items by room. Rooms not in ROOM_ORDER follow it, and items with no room go last.
+  const byRoom = new Map();
+  available.forEach((item) => {
+    if (item.last) {
+      featured.append(makeTile(item));
+      return;
+    }
+    const room = item.room || "More";
+    if (!byRoom.has(room)) byRoom.set(room, []);
+    byRoom.get(room).push(item);
+  });
+  const rank = (room) => (ROOM_ORDER.includes(room) ? ROOM_ORDER.indexOf(room) : room === "More" ? 999 : 100);
+  const rooms = [...byRoom.keys()].sort((a, b) => rank(a) - rank(b));
+
+  rooms.forEach((room) => {
+    const id = "room-" + room.toLowerCase().replace(/[^a-z0-9]+/g, "-");
+    const section = document.createElement("section");
+    section.className = "room";
+    section.id = id;
+    section.setAttribute("aria-labelledby", id + "-title");
+    const heading = document.createElement("h3");
+    heading.className = "room-title";
+    heading.id = id + "-title";
+    heading.textContent = room;
+    const grid = document.createElement("div");
+    grid.className = "grid";
+    byRoom.get(room).forEach((item) => grid.append(makeTile(item)));
+    section.append(heading, grid);
+    roomsEl.append(section);
+
+    if (rooms.length > 1) {
+      const link = document.createElement("a");
+      link.href = "#" + id;
+      link.textContent = room;
+      roomNav.append(link);
+    }
+  });
+  roomNav.hidden = rooms.length < 2;
   document.getElementById("count").textContent =
     available.length === 1 ? "1 item" : available.length + " items";
   if (!available.length) {

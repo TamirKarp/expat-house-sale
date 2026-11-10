@@ -12,7 +12,8 @@ window.ITEMS = [
         "w": 600,
         "h": 800
       }
-    ]
+    ],
+    "room": "Kitchen"
   },
   {
     "id": "glass-top-large-coffee-table-with-drawer",
@@ -26,7 +27,8 @@ window.ITEMS = [
         "w": 600,
         "h": 800
       }
-    ]
+    ],
+    "room": "Living room"
   },
   {
     "id": "hisense-refrigerator",
@@ -40,7 +42,8 @@ window.ITEMS = [
         "w": 600,
         "h": 800
       }
-    ]
+    ],
+    "room": "Kitchen"
   },
   {
     "id": "hoover-5-hob-cooker-gas-hob-and-electric-oven",
@@ -61,7 +64,8 @@ window.ITEMS = [
         "w": 600,
         "h": 800
       }
-    ]
+    ],
+    "room": "Kitchen"
   },
   {
     "id": "ikea-aheim-804-100-55",
@@ -78,7 +82,8 @@ window.ITEMS = [
     ],
     "description": [
       "Tall wardrobe with pull out tie rack and drawer."
-    ]
+    ],
+    "room": "Bedroom"
   },
   {
     "id": "siemens-curved-tv",
@@ -92,7 +97,8 @@ window.ITEMS = [
         "w": 800,
         "h": 600
       }
-    ]
+    ],
+    "room": "Living room"
   },
   {
     "id": "sofa-suite",
@@ -109,7 +115,8 @@ window.ITEMS = [
     ],
     "description": [
       "Sofa only. The coffee table and armchair in the photo are not included."
-    ]
+    ],
+    "room": "Living room"
   },
   {
     "id": "stools-height-adjustable-six-available",
@@ -126,7 +133,8 @@ window.ITEMS = [
     ],
     "description": [
       "Spins, height adjustable, foot rest."
-    ]
+    ],
+    "room": "Kitchen"
   },
   {
     "id": "wooden-coffee-table",
@@ -147,7 +155,8 @@ window.ITEMS = [
         "w": 600,
         "h": 800
       }
-    ]
+    ],
+    "room": "Living room"
   },
   {
     "id": "wooden-dining-table",
@@ -164,7 +173,8 @@ window.ITEMS = [
     ],
     "description": [
       "Dining table set with chairs and cover."
-    ]
+    ],
+    "room": "Kitchen"
   },
   {
     "id": "mitsubishi-pajero-gls",

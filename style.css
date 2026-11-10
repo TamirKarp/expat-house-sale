@@ -112,6 +112,34 @@ main section { padding: clamp(2rem, 5vw, 3.5rem) 0; }
 .count { font-size: 1rem; font-weight: 600; letter-spacing: 0; color: var(--muted); }
 .empty { font-size: 1.15rem; color: var(--muted); }
 
+/* Rooms */
+.room + .room { margin-top: clamp(2.5rem, 6vw, 4rem); }
+.room-title {
+  margin: 0 0 1.1rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 2px solid rgb(22 19 15 / 0.12);
+  font-size: clamp(1.3rem, 3.4vw, 1.8rem);
+  letter-spacing: -0.02em;
+  font-weight: 900;
+  color: var(--red);
+}
+.room-nav { display: flex; flex-wrap: wrap; gap: 0.6rem; margin: 0 0 2rem; }
+.room-nav[hidden] { display: none; }
+.room-nav a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0 1.1rem;
+  border: 2px solid var(--ink);
+  border-radius: 999px;
+  font-weight: 800;
+  color: var(--ink);
+  text-decoration: none;
+}
+.room-nav a:focus-visible { outline: 3px solid var(--red); outline-offset: 2px; }
+@media (hover: hover) { .room-nav a:hover { background: var(--ink); color: var(--cream); } }
+.room { scroll-margin-top: 1rem; }
+
 /* Items */
 .grid { columns: 1; column-gap: 1.25rem; }
 @media (min-width: 620px) { .grid { columns: 2; } }

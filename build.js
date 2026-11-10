@@ -180,6 +180,7 @@ for (const job of prepared) {
 let items = [...groups.values()];
 
 // Optional extras from details.json, matched by item name: a price, a description, and
+// "room" (Kitchen, Living room, Bedroom or any name) to file it under a heading, and
 // "last": true to show the item in its own feature row at the bottom of the page.
 const detailsFile = path.join(root, "details.json");
 if (fs.existsSync(detailsFile)) {
@@ -198,6 +199,7 @@ if (fs.existsSync(detailsFile)) {
     if (extra.price) item.price = extra.price;
     if (extra.description) item.description = extra.description;
     if (extra.last) item.last = true;
+    if (extra.room) item.room = extra.room;
   }
 }
 items = [...items.filter((i) => !i.last), ...items.filter((i) => i.last)];
