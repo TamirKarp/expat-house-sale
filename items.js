@@ -15,35 +15,35 @@ window.ITEMS = [
     ]
   },
   {
-    "id": "fridge",
-    "title": "Fridge",
+    "id": "hisense-refrigerator",
+    "title": "Hisense Refrigerator",
     "sold": false,
     "photos": [
       {
         "label": "",
-        "thumb": "images/thumb/fridge.jpg",
-        "full": "images/full/fridge.jpg",
+        "thumb": "images/thumb/hisense-refrigerator.jpg",
+        "full": "images/full/hisense-refrigerator.jpg",
         "w": 600,
         "h": 800
       }
     ]
   },
   {
-    "id": "hoover-5-hob-gas-or-electric-oven",
-    "title": "Hoover 5-hob gas or electric oven",
+    "id": "hoover-5-hob-cooker-gas-hob-and-electric-oven",
+    "title": "Hoover 5-hob cooker, gas hob and electric oven",
     "sold": false,
     "photos": [
       {
         "label": "Front",
-        "thumb": "images/thumb/hoover-5-hob-gas-or-electric-oven-front.jpg",
-        "full": "images/full/hoover-5-hob-gas-or-electric-oven-front.jpg",
+        "thumb": "images/thumb/hoover-5-hob-cooker-gas-hob-and-electric-oven-front.jpg",
+        "full": "images/full/hoover-5-hob-cooker-gas-hob-and-electric-oven-front.jpg",
         "w": 600,
         "h": 800
       },
       {
         "label": "Top",
-        "thumb": "images/thumb/hoover-5-hob-gas-or-electric-oven-top.jpg",
-        "full": "images/full/hoover-5-hob-gas-or-electric-oven-top.jpg",
+        "thumb": "images/thumb/hoover-5-hob-cooker-gas-hob-and-electric-oven-top.jpg",
+        "full": "images/full/hoover-5-hob-cooker-gas-hob-and-electric-oven-top.jpg",
         "w": 600,
         "h": 800
       }
