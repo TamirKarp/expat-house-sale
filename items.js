@@ -64,16 +64,61 @@ window.ITEMS = [
     ]
   },
   {
+    "id": "sofa-suite",
+    "title": "Sofa suite",
+    "sold": false,
+    "photos": [
+      {
+        "label": "",
+        "thumb": "images/thumb/sofa-suite.jpg",
+        "full": "images/full/sofa-suite.jpg",
+        "w": 800,
+        "h": 450
+      }
+    ]
+  },
+  {
+    "id": "stools-height-adjustable-six-available",
+    "title": "Stools - height adjustable (six available)",
+    "sold": false,
+    "photos": [
+      {
+        "label": "",
+        "thumb": "images/thumb/stools-height-adjustable-six-available.jpg",
+        "full": "images/full/stools-height-adjustable-six-available.jpg",
+        "w": 740,
+        "h": 800
+      }
+    ],
+    "description": [
+      "Spins, height adjustable, foot rest."
+    ]
+  },
+  {
+    "id": "tall-wardrobe-with-pull-out-tie-rack-and-drawer",
+    "title": "Tall wardrobe with pull out tie rack and drawer",
+    "sold": false,
+    "photos": [
+      {
+        "label": "",
+        "thumb": "images/thumb/tall-wardrobe-with-pull-out-tie-rack-and-drawer.jpg",
+        "full": "images/full/tall-wardrobe-with-pull-out-tie-rack-and-drawer.jpg",
+        "w": 450,
+        "h": 800
+      }
+    ]
+  },
+  {
     "id": "wooden-coffee-table",
     "title": "Wooden coffee table",
     "sold": false,
     "photos": [
       {
-        "label": "Side view",
-        "thumb": "images/thumb/wooden-coffee-table-side-view.jpg",
-        "full": "images/full/wooden-coffee-table-side-view.jpg",
+        "label": "Side",
+        "thumb": "images/thumb/wooden-coffee-table-side.jpg",
+        "full": "images/full/wooden-coffee-table-side.jpg",
         "w": 800,
-        "h": 600
+        "h": 518
       },
       {
         "label": "Top view",
@@ -82,6 +127,23 @@ window.ITEMS = [
         "w": 600,
         "h": 800
       }
+    ]
+  },
+  {
+    "id": "wooden-dining-table",
+    "title": "Wooden dining table",
+    "sold": false,
+    "photos": [
+      {
+        "label": "",
+        "thumb": "images/thumb/wooden-dining-table.jpg",
+        "full": "images/full/wooden-dining-table.jpg",
+        "w": 687,
+        "h": 800
+      }
+    ],
+    "description": [
+      "Dining table set with chairs and cover."
     ]
   },
   {
@@ -118,7 +180,6 @@ window.ITEMS = [
         "h": 800
       }
     ],
-    "price": "AED 13,000",
     "description": [
       "2011 Mitsubishi Pajero GLS with GCC specifications, in great condition.",
       "Expat family car, well maintained, no off-road.",

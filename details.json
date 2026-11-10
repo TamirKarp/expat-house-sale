@@ -1,6 +1,15 @@
 {
+  "Stools - height adjustable (six available)": {
+    "description": [
+      "Spins, height adjustable, foot rest."
+    ]
+  },
+  "Wooden dining table": {
+    "description": [
+      "Dining table set with chairs and cover."
+    ]
+  },
   "Mitsubishi Pajero GLS": {
-    "price": "AED 13,000",
     "last": true,
     "description": [
       "2011 Mitsubishi Pajero GLS with GCC specifications, in great condition.",

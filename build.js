@@ -89,6 +89,7 @@ function titleFrom(file) {
     .replace(/_+/g, " ")
     .replace(/-+/g, (dash) => (/\s/.test(file) ? dash : " ")) // keep hyphens in names that already use spaces ("5-hob")
     .replace(/\s+/g, " ")
+    .replace(/[\s.]+$/, "") // "Wooden dining table. .jpeg" shows as "Wooden dining table"
     .trim();
   return text ? text[0].toUpperCase() + text.slice(1) : "Item";
 }
