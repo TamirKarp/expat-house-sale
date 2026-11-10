@@ -176,7 +176,30 @@ for (const job of prepared) {
   }
 }
 
-const items = [...groups.values()];
+let items = [...groups.values()];
+
+// Optional extras from details.json, matched by item name: a price, a description, and
+// "last": true to show the item in its own feature row at the bottom of the page.
+const detailsFile = path.join(root, "details.json");
+if (fs.existsSync(detailsFile)) {
+  let details = {};
+  try {
+    details = JSON.parse(fs.readFileSync(detailsFile, "utf8"));
+  } catch (err) {
+    console.error("details.json is not valid JSON, so it was ignored: " + err.message);
+  }
+  for (const [name, extra] of Object.entries(details)) {
+    const item = items.find((i) => i.title.toLowerCase() === name.toLowerCase());
+    if (!item) {
+      console.warn('details.json has "' + name + '" but no photo is called that, so it was ignored.');
+      continue;
+    }
+    if (extra.price) item.price = extra.price;
+    if (extra.description) item.description = extra.description;
+    if (extra.last) item.last = true;
+  }
+}
+items = [...items.filter((i) => !i.last), ...items.filter((i) => i.last)];
 
 fs.writeFileSync(
   path.join(root, "items.js"),

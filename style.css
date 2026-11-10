@@ -144,7 +144,21 @@ button.tile { cursor: pointer; transition: transform 0.15s ease, box-shadow 0.15
 .media img { width: 100%; height: auto; }
 
 .cap { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: 0.8rem 1rem; }
+.cap-text { display: grid; gap: 0.15rem; min-width: 0; }
 .cap-title { font-weight: 700; }
+.cap-price { font-size: 0.95rem; font-weight: 800; color: var(--ink); }
+
+/* Feature row: an item flagged "last" in details.json sits alone, full width, at the bottom */
+.featured:empty { display: none; }
+.featured .tile { margin: 0; }
+@media (min-width: 760px) {
+  .featured .tile { display: grid; grid-template-columns: 1.4fr 1fr; align-items: stretch; }
+  .featured .media img { height: 100%; object-fit: cover; }
+  .featured .cap { flex-direction: column; align-items: flex-start; justify-content: center; gap: 1.25rem; padding: 2rem; }
+  .featured .cap-title { font-size: clamp(1.6rem, 3vw, 2.4rem); line-height: 1.1; letter-spacing: -0.02em; font-weight: 900; }
+  .featured .cap-price { font-size: 1.3rem; }
+  .featured .cap-cta { padding: 0.8rem 1.4rem; border-radius: 999px; background: var(--red); color: var(--cream); font-size: 1rem; }
+}
 .cap-cta { font-size: 0.9rem; font-weight: 800; color: var(--red); white-space: nowrap; }
 .sold .cap-cta { color: var(--muted); }
 
@@ -220,6 +234,15 @@ dialog[open] { display: grid; }
 .offer-body .eyebrow { color: var(--muted); margin-bottom: 0.5rem; }
 .offer-body h2 { margin: 0 0 0.75rem; font-size: clamp(2rem, 5vw, 2.6rem); line-height: 1; letter-spacing: -0.03em; font-weight: 900; }
 .offer-body p { margin: 0 0 0.5rem; }
+.offer-body .price { font-size: 1.35rem; font-weight: 900; }
+
+.offer-details { margin-top: 1.5rem; padding-top: 1.25rem; border-top: 2px solid rgb(22 19 15 / 0.12); font-size: 0.98rem; }
+.offer-details h3 { margin: 1.1rem 0 0.35rem; font-size: 0.8rem; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
+.offer-details ul { margin: 0 0 0.5rem; padding-left: 1.15rem; }
+.offer-details li { margin-bottom: 0.3rem; }
+@media (min-width: 760px) {
+  .offer-body { max-height: calc(100dvh - 1.5rem); overflow-y: auto; }
+}
 
 .close {
   position: absolute;

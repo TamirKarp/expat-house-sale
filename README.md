@@ -18,6 +18,10 @@ node build.js "/path/to/your/photos"
 
 The command shrinks the photos into `images/`, gives them a light touch-up (brightness, contrast, gentle sharpening, camera data removed) and rewrites `items.js`. Your originals are never changed. Upload the whole folder to publish.
 
+## Prices and descriptions
+
+Optional, per item, in `details.json`. The key is the item name exactly as it shows on the site. `price` appears as "Asking ..." on the tile and in the pop-up. `description` is a list: plain text is a paragraph, and `{ "title": ..., "items": [...] }` is a heading with bullets. `"last": true` puts the item in its own full-width row at the bottom of the page. Items without an entry here stay as they are.
+
 ## Contact details
 
 Set your email and WhatsApp number in `config.js`.

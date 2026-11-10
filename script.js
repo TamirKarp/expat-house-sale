@@ -15,6 +15,9 @@
   const offerEmailText = document.getElementById("offer-email-text");
   const offerCopy = document.getElementById("offer-copy");
   const offerCopied = document.getElementById("offer-copied");
+  const offerPrice = document.getElementById("offer-price");
+  const offerDetails = document.getElementById("offer-details");
+  const offerBody = document.querySelector(".offer-body");
   let copiedTimer;
 
   function emailLink(subject, body) {
@@ -106,11 +109,30 @@
     }
 
     const cap = el("span", "cap");
-    cap.append(el("span", "cap-title", item.title));
+    const text = el("span", "cap-text");
+    text.append(el("span", "cap-title", item.title));
+    if (item.price && !item.sold) text.append(el("span", "cap-price", "Asking " + item.price));
+    cap.append(text);
     cap.append(el("span", "cap-cta", item.sold ? "Sold" : "Make an offer →"));
 
     tile.append(media, cap);
     return tile;
+  }
+
+  // A description is a list of blocks: plain text is a paragraph, {title, items} is a heading and a list.
+  function renderDetails(blocks) {
+    offerDetails.replaceChildren();
+    (blocks || []).forEach((block) => {
+      if (typeof block === "string") {
+        offerDetails.append(el("p", "", block));
+        return;
+      }
+      if (block.title) offerDetails.append(el("h3", "", block.title));
+      const list = el("ul");
+      (block.items || []).forEach((text) => list.append(el("li", "", text)));
+      offerDetails.append(list);
+    });
+    offerDetails.hidden = !offerDetails.childNodes.length;
   }
 
   function showPhoto(item, index) {
@@ -142,11 +164,17 @@
     resetCopied();
     offerEmailText.textContent = site.email;
     offerEmail.setAttribute("aria-label", "Email your offer to " + site.email);
+    const what = item.title + (item.price ? " (asking " + item.price + ")" : "");
     offerEmail.href = emailLink(
       "Offer for " + item.title,
-      "Hi, I would like to make an offer for: " + item.title + "\n\nMy offer: \n\nMy name: \n"
+      "Hi, I would like to make an offer for: " + what + "\n\nMy offer: \n\nMy name: \n"
     );
-    offerWa.href = waLink("Hi, I would like to make an offer for: " + item.title + ". My offer is: ");
+    offerWa.href = waLink("Hi, I would like to make an offer for: " + what + ". My offer is: ");
+
+    offerPrice.hidden = !item.price;
+    offerPrice.textContent = item.price ? "Asking " + item.price : "";
+    renderDetails(item.description);
+    offerBody.scrollTop = 0;
 
     dialog.showModal();
     history.replaceState(null, "", "#" + item.id);
@@ -162,7 +190,8 @@
 
   // Render
   const grid = document.getElementById("grid");
-  available.forEach((item) => grid.append(makeTile(item)));
+  const featured = document.getElementById("featured");
+  available.forEach((item) => (item.last ? featured : grid).append(makeTile(item)));
   document.getElementById("count").textContent =
     available.length === 1 ? "1 item" : available.length + " items";
   if (!available.length) {

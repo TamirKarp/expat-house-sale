@@ -34,6 +34,7 @@
     <section id="items" class="wrap">
       <h2 class="section-title">Still available <span id="count" class="count"></span></h2>
       <div id="grid" class="grid"></div>
+      <div id="featured" class="featured"></div>
       <p id="empty" class="empty" hidden>New things are being added. Please check back soon.</p>
     </section>
 
@@ -59,6 +60,7 @@
     <div class="offer-body">
       <p class="eyebrow" id="offer-item"></p>
       <h2 id="offer-heading">Make me an offer</h2>
+      <p class="price" id="offer-price" hidden></p>
       <p>Tell us what you would pay. We consider all offers.</p>
       <div class="email-row">
         <a class="btn btn-email" id="offer-email" href="#"><span id="offer-email-text"></span></a>
@@ -69,6 +71,7 @@
       </div>
       <p class="copied" id="offer-copied" role="status" aria-live="polite"></p>
       <a class="btn btn-wa" id="offer-wa" href="#" target="_blank" rel="noopener">WhatsApp your offer</a>
+      <div class="offer-details" id="offer-details" hidden></div>
     </div>
   </dialog>
 
