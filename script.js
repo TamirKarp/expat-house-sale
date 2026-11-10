@@ -165,11 +165,14 @@
     offerEmailText.textContent = site.email;
     offerEmail.setAttribute("aria-label", "Email your offer to " + site.email);
     const what = item.title + (item.price ? " (asking " + item.price + ")" : "");
+    const link = (site.url || "https://expathousesale.com").replace(/\/$/, "") + "/#" + item.id;
     offerEmail.href = emailLink(
       "Offer for " + item.title,
-      "Hi, I would like to make an offer for: " + what + "\n\nMy offer: \n\nMy name: \n"
+      "Hi, I would like to make an offer for the " + what + ":\n" + link + "\n\nMy offer: AED \n\nMy name: \n"
     );
-    offerWa.href = waLink("Hi, I would like to make an offer for: " + what + ". My offer is: ");
+    offerWa.href = waLink(
+      "Hi, I would like to make an offer for the " + what + " on expathousesale.com:\n" + link + "\n\nMy offer: AED "
+    );
 
     offerPrice.hidden = !item.price;
     offerPrice.textContent = item.price ? "Asking " + item.price : "";
