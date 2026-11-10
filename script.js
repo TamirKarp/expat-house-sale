@@ -208,7 +208,6 @@
   // Footer contact links
   const footerEmail = document.getElementById("footer-email");
   footerEmail.href = emailLink("Question about your house sale", "");
-  footerEmail.textContent = site.email;
   document.getElementById("footer-wa").href = waLink("Hi, I have a question about your house sale.");
 
   // A shared link like expathousesale.com/#oak-table opens that item straight away

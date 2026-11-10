@@ -64,6 +64,23 @@ window.ITEMS = [
     ]
   },
   {
+    "id": "ikea-aheim-804-100-55",
+    "title": "IKEA Aheim 804.100.55",
+    "sold": false,
+    "photos": [
+      {
+        "label": "",
+        "thumb": "images/thumb/ikea-aheim-804-100-55.jpg",
+        "full": "images/full/ikea-aheim-804-100-55.jpg",
+        "w": 450,
+        "h": 800
+      }
+    ],
+    "description": [
+      "Tall wardrobe with pull out tie rack and drawer."
+    ]
+  },
+  {
     "id": "siemens-curved-tv",
     "title": "Siemens curved TV",
     "sold": false,
@@ -109,20 +126,6 @@ window.ITEMS = [
     ],
     "description": [
       "Spins, height adjustable, foot rest."
-    ]
-  },
-  {
-    "id": "tall-wardrobe-with-pull-out-tie-rack-and-drawer",
-    "title": "Tall wardrobe with pull out tie rack and drawer",
-    "sold": false,
-    "photos": [
-      {
-        "label": "",
-        "thumb": "images/thumb/tall-wardrobe-with-pull-out-tie-rack-and-drawer.jpg",
-        "full": "images/full/tall-wardrobe-with-pull-out-tie-rack-and-drawer.jpg",
-        "w": 450,
-        "h": 800
-      }
     ]
   },
   {
