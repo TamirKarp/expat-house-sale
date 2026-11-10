@@ -75,6 +75,9 @@ window.ITEMS = [
         "w": 800,
         "h": 450
       }
+    ],
+    "description": [
+      "Sofa only. The coffee table and armchair in the photo are not included."
     ]
   },
   {
