@@ -154,7 +154,7 @@
   const roomsEl = document.getElementById("rooms");
   const roomNav = document.getElementById("room-nav");
   const featured = document.getElementById("featured");
-  const ROOM_ORDER = ["Kitchen", "Living room", "Bedroom"];
+  const ROOM_ORDER = ["Kitchen", "Living room", "Bedroom", "Outdoor"];
 
   // Group the available items by room. Rooms not in ROOM_ORDER follow it, and items with no room go last.
   const byRoom = new Map();

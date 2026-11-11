@@ -114,5 +114,14 @@
         ]
       }
     ]
+  },
+  "Wooden Bed": {
+    "room": "Bedroom",
+    "description": [
+      "205 x 210 cm."
+    ]
+  },
+  "Jungle Gym": {
+    "room": "Outdoor"
   }
 }

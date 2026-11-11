@@ -136,6 +136,21 @@ window.ITEMS = [
     "room": "Bedroom"
   },
   {
+    "id": "jungle-gym",
+    "title": "Jungle Gym",
+    "sold": false,
+    "photos": [
+      {
+        "label": "",
+        "thumb": "images/thumb/jungle-gym.jpg",
+        "full": "images/full/jungle-gym.jpg",
+        "w": 600,
+        "h": 800
+      }
+    ],
+    "room": "Outdoor"
+  },
+  {
     "id": "large-chest-of-drawers",
     "title": "Large chest of drawers",
     "sold": false,
@@ -356,6 +371,31 @@ window.ITEMS = [
         "w": 600,
         "h": 800
       }
+    ],
+    "room": "Bedroom"
+  },
+  {
+    "id": "wooden-bed",
+    "title": "Wooden Bed",
+    "sold": false,
+    "photos": [
+      {
+        "label": "Bed",
+        "thumb": "images/thumb/wooden-bed-bed.jpg",
+        "full": "images/full/wooden-bed-bed.jpg",
+        "w": 600,
+        "h": 800
+      },
+      {
+        "label": "Close up",
+        "thumb": "images/thumb/wooden-bed-close-up.jpg",
+        "full": "images/full/wooden-bed-close-up.jpg",
+        "w": 600,
+        "h": 800
+      }
+    ],
+    "description": [
+      "205 x 210 cm."
     ],
     "room": "Bedroom"
   },
