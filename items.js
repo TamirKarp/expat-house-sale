@@ -212,15 +212,22 @@ window.ITEMS = [
     "sold": false,
     "photos": [
       {
-        "label": "",
-        "thumb": "images/thumb/sofa-suite.jpg",
-        "full": "images/full/sofa-suite.jpg",
+        "label": "Sofa ottoman",
+        "thumb": "images/thumb/sofa-suite-sofa-ottoman.jpg",
+        "full": "images/full/sofa-suite-sofa-ottoman.jpg",
+        "w": 600,
+        "h": 800
+      },
+      {
+        "label": "Sofa",
+        "thumb": "images/thumb/sofa-suite-sofa.jpg",
+        "full": "images/full/sofa-suite-sofa.jpg",
         "w": 800,
         "h": 450
       }
     ],
     "description": [
-      "Sofa only. The coffee table and armchair in the photo are not included."
+      "Sofa with ottoman. The coffee table and armchair in the photo are not included."
     ],
     "room": "Living room"
   },
