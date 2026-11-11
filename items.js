@@ -488,7 +488,7 @@ window.ITEMS = [
       }
     ],
     "description": [
-      "Dining table set with chairs and cover."
+      "Dining table with cover. Chairs not included."
     ],
     "room": "Kitchen"
   },
