@@ -212,18 +212,18 @@ window.ITEMS = [
     "sold": false,
     "photos": [
       {
-        "label": "Sofa ottoman",
-        "thumb": "images/thumb/sofa-suite-sofa-ottoman.jpg",
-        "full": "images/full/sofa-suite-sofa-ottoman.jpg",
-        "w": 600,
-        "h": 800
-      },
-      {
-        "label": "Sofa",
-        "thumb": "images/thumb/sofa-suite-sofa.jpg",
-        "full": "images/full/sofa-suite-sofa.jpg",
+        "label": "Full sofa",
+        "thumb": "images/thumb/sofa-suite-full-sofa.jpg",
+        "full": "images/full/sofa-suite-full-sofa.jpg",
         "w": 800,
         "h": 450
+      },
+      {
+        "label": "Ottoman",
+        "thumb": "images/thumb/sofa-suite-ottoman.jpg",
+        "full": "images/full/sofa-suite-ottoman.jpg",
+        "w": 600,
+        "h": 800
       }
     ],
     "description": [
