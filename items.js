@@ -24,8 +24,8 @@ window.ITEMS = [
         "label": "",
         "thumb": "images/thumb/glass-top-large-coffee-table-with-drawer.jpg",
         "full": "images/full/glass-top-large-coffee-table-with-drawer.jpg",
-        "w": 600,
-        "h": 800
+        "w": 800,
+        "h": 600
       }
     ],
     "room": "Living room"
