@@ -28,6 +28,9 @@ window.ITEMS = [
         "h": 600
       }
     ],
+    "description": [
+      "Size: 93 x 91 cm."
+    ],
     "room": "Living room"
   },
   {
@@ -96,7 +99,8 @@ window.ITEMS = [
       }
     ],
     "description": [
-      "Tall wardrobe with pull out tie rack and drawer."
+      "Tall wardrobe with pull out tie rack and drawer.",
+      "193 cm tall and 100 cm wide."
     ],
     "room": "Bedroom"
   },
@@ -238,14 +242,14 @@ window.ITEMS = [
     "room": "Kitchen"
   },
   {
-    "id": "siemens-curved-tv",
-    "title": "Siemens curved TV",
+    "id": "siemens-62-inch-curved-tv",
+    "title": "Siemens 62 inch curved TV",
     "sold": false,
     "photos": [
       {
         "label": "",
-        "thumb": "images/thumb/siemens-curved-tv.jpg",
-        "full": "images/full/siemens-curved-tv.jpg",
+        "thumb": "images/thumb/siemens-62-inch-curved-tv.jpg",
+        "full": "images/full/siemens-62-inch-curved-tv.jpg",
         "w": 800,
         "h": 600
       }
