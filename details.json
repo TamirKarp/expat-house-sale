@@ -2,6 +2,16 @@
   "Hisense Refrigerator": { "room": "Kitchen" },
   "Hoover 5-hob cooker, gas hob and electric oven": { "room": "Kitchen" },
   "Camping icebox set": { "room": "Kitchen" },
+  "Porcelain set": {
+    "room": "Kitchen",
+    "description": [
+      "The blue, grey and red porcelain dishes are oven safe."
+    ]
+  },
+  "Small Bowls (X8)": { "room": "Kitchen" },
+  "Large Dinner Bowls (X8)": { "room": "Kitchen" },
+  "Large dinner plates (X5)": { "room": "Kitchen" },
+  "Large rimmed Dinner Plates (X4)": { "room": "Kitchen" },
   "Siemens curved TV": { "room": "Living room" },
   "Wooden coffee table": { "room": "Living room" },
   "Glass-top large coffee table with drawer": { "room": "Living room" },

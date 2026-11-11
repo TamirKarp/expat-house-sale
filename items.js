@@ -86,6 +86,97 @@ window.ITEMS = [
     "room": "Bedroom"
   },
   {
+    "id": "large-dinner-bowls-x8",
+    "title": "Large Dinner Bowls (X8)",
+    "sold": false,
+    "photos": [
+      {
+        "label": "",
+        "thumb": "images/thumb/large-dinner-bowls-x8.jpg",
+        "full": "images/full/large-dinner-bowls-x8.jpg",
+        "w": 800,
+        "h": 600
+      }
+    ],
+    "room": "Kitchen"
+  },
+  {
+    "id": "large-dinner-plates-x5",
+    "title": "Large dinner plates (X5)",
+    "sold": false,
+    "photos": [
+      {
+        "label": "",
+        "thumb": "images/thumb/large-dinner-plates-x5.jpg",
+        "full": "images/full/large-dinner-plates-x5.jpg",
+        "w": 800,
+        "h": 600
+      }
+    ],
+    "room": "Kitchen"
+  },
+  {
+    "id": "large-rimmed-dinner-plates-x4",
+    "title": "Large rimmed Dinner Plates (X4)",
+    "sold": false,
+    "photos": [
+      {
+        "label": "",
+        "thumb": "images/thumb/large-rimmed-dinner-plates-x4.jpg",
+        "full": "images/full/large-rimmed-dinner-plates-x4.jpg",
+        "w": 800,
+        "h": 600
+      }
+    ],
+    "room": "Kitchen"
+  },
+  {
+    "id": "porcelain-set",
+    "title": "Porcelain set",
+    "sold": false,
+    "photos": [
+      {
+        "label": "All pieces",
+        "thumb": "images/thumb/porcelain-set-all-pieces.jpg",
+        "full": "images/full/porcelain-set-all-pieces.jpg",
+        "w": 600,
+        "h": 800
+      },
+      {
+        "label": "Blue dish",
+        "thumb": "images/thumb/porcelain-set-blue-dish.jpg",
+        "full": "images/full/porcelain-set-blue-dish.jpg",
+        "w": 800,
+        "h": 600
+      },
+      {
+        "label": "Grey dish",
+        "thumb": "images/thumb/porcelain-set-grey-dish.jpg",
+        "full": "images/full/porcelain-set-grey-dish.jpg",
+        "w": 800,
+        "h": 600
+      },
+      {
+        "label": "Red dish",
+        "thumb": "images/thumb/porcelain-set-red-dish.jpg",
+        "full": "images/full/porcelain-set-red-dish.jpg",
+        "w": 800,
+        "h": 600
+      },
+      {
+        "label": "Serving dish",
+        "thumb": "images/thumb/porcelain-set-serving-dish.jpg",
+        "full": "images/full/porcelain-set-serving-dish.jpg",
+        "w": 800,
+        "h": 600
+      }
+    ],
+    "description": [
+      "The blue, grey and red porcelain dishes are oven safe."
+    ],
+    "room": "Kitchen"
+  },
+  {
     "id": "siemens-curved-tv",
     "title": "Siemens curved TV",
     "sold": false,
@@ -99,6 +190,21 @@ window.ITEMS = [
       }
     ],
     "room": "Living room"
+  },
+  {
+    "id": "small-bowls-x8",
+    "title": "Small Bowls (X8)",
+    "sold": false,
+    "photos": [
+      {
+        "label": "",
+        "thumb": "images/thumb/small-bowls-x8.jpg",
+        "full": "images/full/small-bowls-x8.jpg",
+        "w": 800,
+        "h": 600
+      }
+    ],
+    "room": "Kitchen"
   },
   {
     "id": "sofa-suite",
