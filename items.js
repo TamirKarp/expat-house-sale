@@ -136,6 +136,26 @@ window.ITEMS = [
         "h": 800
       }
     ],
+    "description": [
+      {
+        "title": "STORKLINTA",
+        "items": [
+          "Chest of 6 drawers, white, 140x50x75 cm"
+        ]
+      },
+      {
+        "title": "2 x MALM",
+        "items": [
+          "Chest of 2 drawers, white, 40x55 cm"
+        ]
+      },
+      {
+        "title": "MALM",
+        "items": [
+          "Bed frame, high, white/Luröy, 160x200 cm"
+        ]
+      }
+    ],
     "room": "Bedroom"
   },
   {
