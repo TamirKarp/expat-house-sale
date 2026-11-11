@@ -146,5 +146,11 @@
   },
   "Dutch wooden jungle gym": {
     "room": "Outdoor"
+  },
+  "Floating shelves": {
+    "room": "Living room"
+  },
+  "Canon printer": {
+    "room": "Living room"
   }
 }

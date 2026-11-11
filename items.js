@@ -16,6 +16,21 @@ window.ITEMS = [
     "room": "Kitchen"
   },
   {
+    "id": "canon-printer",
+    "title": "Canon printer",
+    "sold": false,
+    "photos": [
+      {
+        "label": "",
+        "thumb": "images/thumb/canon-printer.jpg?v=880601f5",
+        "full": "images/full/canon-printer.jpg?v=82179a0c",
+        "w": 350,
+        "h": 270
+      }
+    ],
+    "room": "Living room"
+  },
+  {
     "id": "dutch-wooden-jungle-gym",
     "title": "Dutch wooden jungle gym",
     "sold": false,
@@ -29,6 +44,21 @@ window.ITEMS = [
       }
     ],
     "room": "Outdoor"
+  },
+  {
+    "id": "floating-shelves",
+    "title": "Floating shelves",
+    "sold": false,
+    "photos": [
+      {
+        "label": "",
+        "thumb": "images/thumb/floating-shelves.jpg?v=c56f7c90",
+        "full": "images/full/floating-shelves.jpg?v=6c4a7f60",
+        "w": 450,
+        "h": 800
+      }
+    ],
+    "room": "Living room"
   },
   {
     "id": "glass-top-large-coffee-table-with-drawer",
