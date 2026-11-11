@@ -223,10 +223,11 @@ dialog[open] { display: grid; }
 @media (min-width: 760px) { dialog[open] { grid-template-columns: 1.2fr 1fr; } }
 
 .offer-media { display: flex; flex-direction: column; align-items: center; justify-content: center; background: #1d1a15; }
-.offer-media > img { width: auto; height: auto; max-width: 100%; max-height: 42vh; max-height: 42dvh; }
-@media (min-width: 760px) { .offer-media > img { max-height: calc(100dvh - 1.5rem); } }
-.offer-media:has(.offer-thumbs:not([hidden])) > img { max-height: calc(42dvh - 4rem); }
-@media (min-width: 760px) { .offer-media:has(.offer-thumbs:not([hidden])) > img { max-height: calc(100dvh - 7rem); } }
+.offer-media > img, .offer-media > video { width: auto; height: auto; max-width: 100%; max-height: 42vh; max-height: 42dvh; }
+.offer-media > [hidden] { display: none; }
+@media (min-width: 760px) { .offer-media > img, .offer-media > video { max-height: calc(100dvh - 1.5rem); } }
+.offer-media:has(.offer-thumbs:not([hidden])) > img, .offer-media:has(.offer-thumbs:not([hidden])) > video { max-height: calc(42dvh - 4rem); }
+@media (min-width: 760px) { .offer-media:has(.offer-thumbs:not([hidden])) > img, .offer-media:has(.offer-thumbs:not([hidden])) > video { max-height: calc(100dvh - 7rem); } }
 
 .offer-thumbs { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.5rem; padding: 0.75rem; }
 .thumb {
@@ -309,8 +310,8 @@ dialog[open] { display: grid; }
   .offer-body h2 { font-size: 1.7rem; }
 }
 @media (max-width: 759px) and (max-height: 700px) {
-  .offer-media > img { max-height: 32dvh; }
-  .offer-media:has(.offer-thumbs:not([hidden])) > img { max-height: 24dvh; }
+  .offer-media > img, .offer-media > video { max-height: 32dvh; }
+  .offer-media:has(.offer-thumbs:not([hidden])) > img, .offer-media:has(.offer-thumbs:not([hidden])) > video { max-height: 24dvh; }
   .offer-thumbs { padding: 0.5rem; }
 }
 

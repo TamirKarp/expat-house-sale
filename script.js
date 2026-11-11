@@ -8,6 +8,7 @@
 
   const dialog = document.getElementById("offer");
   const offerImg = document.getElementById("offer-img");
+  const offerVideo = document.getElementById("offer-video");
   const offerThumbs = document.getElementById("offer-thumbs");
   const offerItem = document.getElementById("offer-item");
   const offerWa = document.getElementById("offer-wa");
@@ -46,8 +47,11 @@
     }
     media.append(img);
 
+    const hasVideo = item.photos.some((p) => p.video);
     if (item.photos.length > 1) {
-      media.append(el("span", "badge", item.photos.length + " photos"));
+      media.append(el("span", "badge", item.photos.length + (hasVideo ? " items" : " photos")));
+    } else if (hasVideo) {
+      media.append(el("span", "badge", "▶ Video"));
     }
 
     if (item.sold) {
@@ -84,8 +88,24 @@
     offerDetails.hidden = !offerDetails.childNodes.length;
   }
 
+  // Stops any playing video and frees it, so it never keeps playing behind a closed pop-up.
+  function stopVideo() {
+    offerVideo.pause();
+    offerVideo.removeAttribute("src");
+    offerVideo.removeAttribute("poster");
+    offerVideo.load();
+  }
+
   function showPhoto(item, index) {
     const photo = item.photos[index];
+    stopVideo();
+    offerImg.hidden = !!photo.video;
+    offerVideo.hidden = !photo.video;
+    if (photo.video) {
+      offerVideo.poster = photo.full;
+      offerVideo.src = photo.video;
+      offerVideo.setAttribute("aria-label", item.title + " (video)");
+    }
     offerImg.src = photo.full;
     offerImg.alt = item.title + (photo.label ? " (" + photo.label.toLowerCase() + ")" : "");
     Array.from(offerThumbs.children).forEach((button, i) => {
@@ -126,6 +146,7 @@
   });
   document.getElementById("offer-close").addEventListener("click", () => dialog.close());
   dialog.addEventListener("close", () => {
+    stopVideo();
     history.replaceState(null, "", location.pathname + location.search);
   });
 

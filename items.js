@@ -31,6 +31,21 @@ window.ITEMS = [
     "room": "Living room"
   },
   {
+    "id": "gold-floor-lamp",
+    "title": "Gold floor lamp",
+    "sold": false,
+    "photos": [
+      {
+        "label": "",
+        "thumb": "images/thumb/gold-floor-lamp.jpg",
+        "full": "images/full/gold-floor-lamp.jpg",
+        "w": 512,
+        "h": 800
+      }
+    ],
+    "room": "Living room"
+  },
+  {
     "id": "hisense-refrigerator",
     "title": "Hisense Refrigerator",
     "sold": false,
@@ -82,6 +97,22 @@ window.ITEMS = [
     ],
     "description": [
       "Tall wardrobe with pull out tie rack and drawer."
+    ],
+    "room": "Bedroom"
+  },
+  {
+    "id": "ikea-bedroom-suite-mirror",
+    "title": "IKEA Bedroom Suite + mirror",
+    "sold": false,
+    "photos": [
+      {
+        "label": "",
+        "thumb": "images/thumb/ikea-bedroom-suite-mirror.jpg",
+        "full": "images/full/ikea-bedroom-suite-mirror.jpg",
+        "video": "images/video/ikea-bedroom-suite-mirror.mp4",
+        "w": 453,
+        "h": 800
+      }
     ],
     "room": "Bedroom"
   },

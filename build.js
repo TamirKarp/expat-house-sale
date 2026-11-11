@@ -10,6 +10,9 @@
 // - Several photos of one item: put the view in brackets, "oak-table (front).jpg" and
 //   "oak-table (side).jpg". They share one tile and one pop-up, labelled Front and Side.
 //
+// - Videos (mp4, mov, m4v) work the same way: one tile with a still frame, and the video plays in
+//   the pop-up. They need ffmpeg (brew install ffmpeg).
+//
 // Needs a Mac (it uses the built-in "sips" tool to shrink photos so the site loads fast).
 // Photos also get a light touch-up from scripts/enhance.py (needs python3 with Pillow and numpy).
 // The original photos are never changed.
@@ -22,6 +25,7 @@ const { execFileSync } = require("child_process");
 const root = __dirname;
 const imagesDir = path.join(root, "images");
 const IMAGE = /\.(jpe?g|png|heic|heif|webp)$/i;
+const VIDEO = /\.(mp4|mov|m4v)$/i;
 const THUMB_SIZE = 800;
 const FULL_SIZE = 1600;
 
@@ -77,7 +81,7 @@ function enhanceInto(full, thumb) {
 function listImages(dir) {
   return fs
     .readdirSync(dir, { withFileTypes: true })
-    .filter((e) => e.isFile() && !e.name.startsWith(".") && IMAGE.test(e.name))
+    .filter((e) => e.isFile() && !e.name.startsWith(".") && (IMAGE.test(e.name) || VIDEO.test(e.name)))
     .map((e) => e.name)
     .sort((a, b) => a.localeCompare(b, undefined, { numeric: true, sensitivity: "base" }));
 }
@@ -116,6 +120,23 @@ const jobs = [
 fs.rmSync(imagesDir, { recursive: true, force: true });
 fs.mkdirSync(path.join(imagesDir, "thumb"), { recursive: true });
 fs.mkdirSync(path.join(imagesDir, "full"), { recursive: true });
+fs.mkdirSync(path.join(imagesDir, "video"), { recursive: true });
+
+// A video becomes a tile with a still frame as its picture. The still is taken 2 seconds in
+// (or from the start of a shorter clip); the video itself is repacked so it starts playing quickly.
+function prepareVideo(file, photoId) {
+  const still = path.join(os.tmpdir(), "expat-still-" + photoId + ".jpg");
+  const out = path.join(imagesDir, "video", photoId + ".mp4");
+  const ffmpeg = (...args) => execFileSync("ffmpeg", ["-v", "error", "-y", ...args], { stdio: ["ignore", "pipe", "pipe"] });
+  try {
+    ffmpeg("-ss", "2", "-i", file, "-frames:v", "1", "-q:v", "2", still);
+    if (!fs.existsSync(still)) ffmpeg("-i", file, "-frames:v", "1", "-q:v", "2", still);
+  } catch (err) {
+    ffmpeg("-i", file, "-frames:v", "1", "-q:v", "2", still);
+  }
+  ffmpeg("-i", file, "-c", "copy", "-movflags", "+faststart", out);
+  return { still, video: "images/video/" + photoId + ".mp4" };
+}
 
 // Photos named "Oak table (front).jpg" and "Oak table (side).jpg" are two views of one item:
 // they share one tile called "Oak table", and the words in brackets label each view.
@@ -150,8 +171,16 @@ for (const job of prepared) {
   const thumb = path.join(imagesDir, "thumb", photoId + ".jpg");
   const full = path.join(imagesDir, "full", photoId + ".jpg");
   try {
-    makeJpeg(job.file, full, FULL_SIZE);
-    if (!enhanceInto(full, thumb)) makeJpeg(job.file, thumb, THUMB_SIZE);
+    let source = job.file;
+    let video = "";
+    if (VIDEO.test(job.name)) {
+      const prepared = prepareVideo(job.file, photoId);
+      source = prepared.still;
+      video = prepared.video;
+    }
+    makeJpeg(source, full, FULL_SIZE);
+    // Photos get the light touch-up; a video's still frame is left as filmed so it matches the video.
+    if (video || !enhanceInto(full, thumb)) makeJpeg(source, thumb, THUMB_SIZE);
     const { w, h } = dimensions(thumb);
 
     const grouped = viewsPerKey[job.key] > 1;
@@ -166,6 +195,7 @@ for (const job of prepared) {
       label: grouped ? job.label : "",
       thumb: "images/thumb/" + photoId + ".jpg",
       full: "images/full/" + photoId + ".jpg",
+      ...(video ? { video } : {}),
       w,
       h,
     });
