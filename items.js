@@ -49,14 +49,14 @@ window.ITEMS = [
     "room": "Living room"
   },
   {
-    "id": "hisense-refrigerator",
-    "title": "Hisense Refrigerator",
+    "id": "hisense-top-mount-refrigerator-418-litres-rt3n418nai",
+    "title": "Hisense Top Mount Refrigerator 418 Litres RT3N418NAI",
     "sold": false,
     "photos": [
       {
         "label": "",
-        "thumb": "images/thumb/hisense-refrigerator.jpg",
-        "full": "images/full/hisense-refrigerator.jpg",
+        "thumb": "images/thumb/hisense-top-mount-refrigerator-418-litres-rt3n418nai.jpg",
+        "full": "images/full/hisense-top-mount-refrigerator-418-litres-rt3n418nai.jpg",
         "w": 600,
         "h": 800
       }
