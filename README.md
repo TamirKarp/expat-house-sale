@@ -24,4 +24,4 @@ Optional, per item, in `details.json`. The key is the item name exactly as it sh
 
 ## Contact details
 
-Set your email and WhatsApp number in `config.js`.
+Set your WhatsApp number in `config.js`. Offers and questions go there; the site shows no email address.

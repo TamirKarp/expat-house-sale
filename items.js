@@ -86,6 +86,36 @@ window.ITEMS = [
     "room": "Bedroom"
   },
   {
+    "id": "ikea-vihals-day-bed-00595086-with-afjall-foam-matt-30568642",
+    "title": "IKEA VIHALS Day Bed (00595086) with AFJALL foam matt (30568642)",
+    "sold": false,
+    "photos": [
+      {
+        "label": "",
+        "thumb": "images/thumb/ikea-vihals-day-bed-00595086-with-afjall-foam-matt-30568642.jpg",
+        "full": "images/full/ikea-vihals-day-bed-00595086-with-afjall-foam-matt-30568642.jpg",
+        "w": 800,
+        "h": 600
+      }
+    ],
+    "room": "Bedroom"
+  },
+  {
+    "id": "large-chest-of-drawers",
+    "title": "Large chest of drawers",
+    "sold": false,
+    "photos": [
+      {
+        "label": "",
+        "thumb": "images/thumb/large-chest-of-drawers.jpg",
+        "full": "images/full/large-chest-of-drawers.jpg",
+        "w": 800,
+        "h": 600
+      }
+    ],
+    "room": "Bedroom"
+  },
+  {
     "id": "large-dinner-bowls-x8",
     "title": "Large Dinner Bowls (X8)",
     "sold": false,
@@ -207,6 +237,21 @@ window.ITEMS = [
     "room": "Kitchen"
   },
   {
+    "id": "small-drawer",
+    "title": "Small drawer",
+    "sold": false,
+    "photos": [
+      {
+        "label": "",
+        "thumb": "images/thumb/small-drawer.jpg",
+        "full": "images/full/small-drawer.jpg",
+        "w": 800,
+        "h": 600
+      }
+    ],
+    "room": "Bedroom"
+  },
+  {
     "id": "sofa-suite",
     "title": "Sofa suite",
     "sold": false,
@@ -248,6 +293,36 @@ window.ITEMS = [
       "Spins, height adjustable, foot rest."
     ],
     "room": "Kitchen"
+  },
+  {
+    "id": "table-lamp-flower-design",
+    "title": "Table lamp flower design",
+    "sold": false,
+    "photos": [
+      {
+        "label": "",
+        "thumb": "images/thumb/table-lamp-flower-design.jpg",
+        "full": "images/full/table-lamp-flower-design.jpg",
+        "w": 600,
+        "h": 800
+      }
+    ],
+    "room": "Bedroom"
+  },
+  {
+    "id": "table-lamp-wicker",
+    "title": "Table lamp wicker",
+    "sold": false,
+    "photos": [
+      {
+        "label": "",
+        "thumb": "images/thumb/table-lamp-wicker.jpg",
+        "full": "images/full/table-lamp-wicker.jpg",
+        "w": 600,
+        "h": 800
+      }
+    ],
+    "room": "Bedroom"
   },
   {
     "id": "wooden-coffee-table",

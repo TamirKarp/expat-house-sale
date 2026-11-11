@@ -10,65 +10,14 @@
   const offerImg = document.getElementById("offer-img");
   const offerThumbs = document.getElementById("offer-thumbs");
   const offerItem = document.getElementById("offer-item");
-  const offerEmail = document.getElementById("offer-email");
   const offerWa = document.getElementById("offer-wa");
-  const offerEmailText = document.getElementById("offer-email-text");
-  const offerCopy = document.getElementById("offer-copy");
-  const offerCopied = document.getElementById("offer-copied");
   const offerPrice = document.getElementById("offer-price");
   const offerDetails = document.getElementById("offer-details");
   const offerBody = document.querySelector(".offer-body");
-  let copiedTimer;
-
-  function emailLink(subject, body) {
-    return "mailto:" + site.email + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
-  }
 
   function waLink(text) {
     return "https://wa.me/" + site.whatsapp + "?text=" + encodeURIComponent(text);
   }
-
-  // Copies text. The clipboard API only works on secure (https) pages, so fall back to the old method.
-  async function copyText(text) {
-    try {
-      if (navigator.clipboard && window.isSecureContext) {
-        await navigator.clipboard.writeText(text);
-        return true;
-      }
-    } catch (err) {
-      /* fall through to the fallback */
-    }
-    // The pop-up makes everything outside it unclickable, so the helper field must live inside it.
-    const field = document.createElement("textarea");
-    field.value = text;
-    field.setAttribute("readonly", "");
-    field.style.cssText = "position:fixed;top:0;left:0;opacity:0;font-size:16px";
-    dialog.append(field);
-    field.select();
-    field.setSelectionRange(0, text.length);
-    let ok = false;
-    try {
-      ok = document.execCommand("copy");
-    } catch (err) {
-      ok = false;
-    }
-    field.remove();
-    return ok;
-  }
-
-  function resetCopied() {
-    clearTimeout(copiedTimer);
-    offerCopy.classList.remove("done");
-    offerCopied.textContent = "";
-  }
-
-  offerCopy.addEventListener("click", async () => {
-    const ok = await copyText(site.email);
-    resetCopied();
-    offerCopied.textContent = ok ? "Email address copied" : "Could not copy. Press and hold the address to copy it.";
-    if (ok) offerCopy.classList.add("done");
-    copiedTimer = setTimeout(resetCopied, 3000);
-  });
 
   function el(tag, className, text) {
     const node = document.createElement(tag);
@@ -161,13 +110,6 @@
     showPhoto(item, 0);
     offerItem.textContent = item.title;
 
-    resetCopied();
-    offerEmailText.textContent = site.email;
-    offerEmail.setAttribute("aria-label", "Email your offer to " + site.email);
-    offerEmail.href = emailLink(
-      "Offer for " + item.title,
-      "Hi, I would like to make an offer for the " + item.title + ".\n\nMy offer: \n\nMy name: \n"
-    );
     offerWa.href = waLink("Hi, I would like to make an offer for the " + item.title + ". My offer is: ");
 
     offerPrice.hidden = !item.price;
@@ -245,8 +187,6 @@
   }
 
   // Footer contact links
-  const footerEmail = document.getElementById("footer-email");
-  footerEmail.href = emailLink("Question about your house sale", "");
   document.getElementById("footer-wa").href = waLink("Hi, I have a question about your house sale.");
 
   // A shared link like expathousesale.com/#oak-table opens that item straight away
