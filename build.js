@@ -63,11 +63,11 @@ function makeJpeg(input, output, size) {
 // Rewrites the full-size file in place. Returns false if python3 or Pillow is missing, so the
 // build still works, just without the touch-up.
 let warnedNoEnhance = false;
-function enhanceInto(full, thumb) {
+function enhanceInto(full, thumb, strong) {
   try {
-    execFileSync("python3", [path.join(root, "scripts", "enhance.py"), full, full, thumb, String(THUMB_SIZE)], {
-      stdio: ["ignore", "pipe", "pipe"],
-    });
+    const args = [path.join(root, "scripts", "enhance.py"), full, full, thumb, String(THUMB_SIZE)];
+    if (strong) args.push("strong");
+    execFileSync("python3", args, { stdio: ["ignore", "pipe", "pipe"] });
     return true;
   } catch (err) {
     if (!warnedNoEnhance) {
@@ -162,6 +162,22 @@ const prepared = jobs.map((job) => {
 const viewsPerKey = {};
 for (const p of prepared) viewsPerKey[p.key] = (viewsPerKey[p.key] || 0) + 1;
 
+// Optional extras from details.json, matched by item name (read first because "touchup" is
+// needed while the photos are processed).
+let details = {};
+const detailsFile = path.join(root, "details.json");
+if (fs.existsSync(detailsFile)) {
+  try {
+    details = JSON.parse(fs.readFileSync(detailsFile, "utf8"));
+  } catch (err) {
+    console.error("details.json is not valid JSON, so it was ignored: " + err.message);
+  }
+}
+function detailsFor(title) {
+  const found = Object.entries(details).find(([name]) => name.toLowerCase() === title.toLowerCase());
+  return found ? found[1] : {};
+}
+
 const usedPhotoIds = new Set();
 const usedItemIds = new Set();
 const groups = new Map();
@@ -170,6 +186,7 @@ for (const job of prepared) {
   const photoId = unique(slugFrom(job.title), usedPhotoIds);
   const thumb = path.join(imagesDir, "thumb", photoId + ".jpg");
   const full = path.join(imagesDir, "full", photoId + ".jpg");
+  const strong = detailsFor(viewsPerKey[job.key] > 1 ? job.base : job.title).touchup === "strong";
   try {
     let source = job.file;
     let video = "";
@@ -180,7 +197,7 @@ for (const job of prepared) {
     }
     makeJpeg(source, full, FULL_SIZE);
     // Photos get the light touch-up; a video's still frame is left as filmed so it matches the video.
-    if (video || !enhanceInto(full, thumb)) makeJpeg(source, thumb, THUMB_SIZE);
+    if (video || !enhanceInto(full, thumb, strong)) makeJpeg(source, thumb, THUMB_SIZE);
     const { w, h } = dimensions(thumb);
 
     const grouped = viewsPerKey[job.key] > 1;
@@ -209,17 +226,10 @@ for (const job of prepared) {
 
 let items = [...groups.values()];
 
-// Optional extras from details.json, matched by item name: a price, a description, and
-// "room" (Kitchen, Living room, Bedroom or any name) to file it under a heading, and
-// "last": true to show the item in its own feature row at the bottom of the page.
-const detailsFile = path.join(root, "details.json");
-if (fs.existsSync(detailsFile)) {
-  let details = {};
-  try {
-    details = JSON.parse(fs.readFileSync(detailsFile, "utf8"));
-  } catch (err) {
-    console.error("details.json is not valid JSON, so it was ignored: " + err.message);
-  }
+// Extras from details.json: a price, a description, "room" (Kitchen, Living room, Bedroom or
+// any name) to file it under a heading, "last": true to show the item in its own feature row at
+// the bottom of the page, and "touchup": "strong" for photos with a colour cast or uneven light.
+{
   for (const [name, extra] of Object.entries(details)) {
     const item = items.find((i) => i.title.toLowerCase() === name.toLowerCase());
     if (!item) {
@@ -237,6 +247,16 @@ items = [...items.filter((i) => !i.last), ...items.filter((i) => i.last)];
 fs.writeFileSync(
   path.join(root, "items.js"),
   "// Written by build.js. Do not edit by hand; run build.js again instead.\nwindow.ITEMS = " + JSON.stringify(items, null, 2) + ";\n"
+);
+
+// Stamp the page's own files with a version so browsers fetch the new ones after every build
+// instead of showing a copy they saved earlier.
+const indexFile = path.join(root, "index.html");
+const stamp = Date.now().toString(36);
+const html = fs.readFileSync(indexFile, "utf8");
+fs.writeFileSync(
+  indexFile,
+  html.replace(/(href|src)="(style\.css|config\.js|items\.js|script\.js)(\?v=[a-z0-9]+)?"/g, '$1="$2?v=' + stamp + '"')
 );
 
 const soldCount = items.filter((i) => i.sold).length;
