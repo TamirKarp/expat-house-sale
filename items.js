@@ -7,13 +7,28 @@ window.ITEMS = [
     "photos": [
       {
         "label": "",
-        "thumb": "images/thumb/camping-icebox-set.jpg",
-        "full": "images/full/camping-icebox-set.jpg",
+        "thumb": "images/thumb/camping-icebox-set.jpg?v=fbc60f9d",
+        "full": "images/full/camping-icebox-set.jpg?v=5aa8b54e",
         "w": 600,
         "h": 800
       }
     ],
     "room": "Kitchen"
+  },
+  {
+    "id": "dutch-wooden-jungle-gym",
+    "title": "Dutch wooden jungle gym",
+    "sold": false,
+    "photos": [
+      {
+        "label": "",
+        "thumb": "images/thumb/dutch-wooden-jungle-gym.jpg?v=80686a91",
+        "full": "images/full/dutch-wooden-jungle-gym.jpg?v=0e68c455",
+        "w": 600,
+        "h": 800
+      }
+    ],
+    "room": "Outdoor"
   },
   {
     "id": "glass-top-large-coffee-table-with-drawer",
@@ -22,8 +37,8 @@ window.ITEMS = [
     "photos": [
       {
         "label": "",
-        "thumb": "images/thumb/glass-top-large-coffee-table-with-drawer.jpg",
-        "full": "images/full/glass-top-large-coffee-table-with-drawer.jpg",
+        "thumb": "images/thumb/glass-top-large-coffee-table-with-drawer.jpg?v=f5e07573",
+        "full": "images/full/glass-top-large-coffee-table-with-drawer.jpg?v=4a95793f",
         "w": 800,
         "h": 600
       }
@@ -40,8 +55,8 @@ window.ITEMS = [
     "photos": [
       {
         "label": "",
-        "thumb": "images/thumb/gold-floor-lamp.jpg",
-        "full": "images/full/gold-floor-lamp.jpg",
+        "thumb": "images/thumb/gold-floor-lamp.jpg?v=9b61fe8d",
+        "full": "images/full/gold-floor-lamp.jpg?v=c5576dbc",
         "w": 512,
         "h": 800
       }
@@ -55,8 +70,8 @@ window.ITEMS = [
     "photos": [
       {
         "label": "",
-        "thumb": "images/thumb/hisense-top-mount-refrigerator-418-litres-rt3n418nai.jpg",
-        "full": "images/full/hisense-top-mount-refrigerator-418-litres-rt3n418nai.jpg",
+        "thumb": "images/thumb/hisense-top-mount-refrigerator-418-litres-rt3n418nai.jpg?v=4c74f99f",
+        "full": "images/full/hisense-top-mount-refrigerator-418-litres-rt3n418nai.jpg?v=d56b5738",
         "w": 600,
         "h": 800
       }
@@ -73,15 +88,15 @@ window.ITEMS = [
     "photos": [
       {
         "label": "Front",
-        "thumb": "images/thumb/hoover-5-hob-cooker-gas-hob-and-electric-oven-front.jpg",
-        "full": "images/full/hoover-5-hob-cooker-gas-hob-and-electric-oven-front.jpg",
+        "thumb": "images/thumb/hoover-5-hob-cooker-gas-hob-and-electric-oven-front.jpg?v=7d49e9c1",
+        "full": "images/full/hoover-5-hob-cooker-gas-hob-and-electric-oven-front.jpg?v=7272eca8",
         "w": 600,
         "h": 800
       },
       {
         "label": "Top",
-        "thumb": "images/thumb/hoover-5-hob-cooker-gas-hob-and-electric-oven-top.jpg",
-        "full": "images/full/hoover-5-hob-cooker-gas-hob-and-electric-oven-top.jpg",
+        "thumb": "images/thumb/hoover-5-hob-cooker-gas-hob-and-electric-oven-top.jpg?v=6a09fb6c",
+        "full": "images/full/hoover-5-hob-cooker-gas-hob-and-electric-oven-top.jpg?v=ef26701e",
         "w": 600,
         "h": 800
       }
@@ -95,8 +110,8 @@ window.ITEMS = [
     "photos": [
       {
         "label": "",
-        "thumb": "images/thumb/ikea-aheim-804-100-55.jpg",
-        "full": "images/full/ikea-aheim-804-100-55.jpg",
+        "thumb": "images/thumb/ikea-aheim-804-100-55.jpg?v=586ac6cc",
+        "full": "images/full/ikea-aheim-804-100-55.jpg?v=baa8aa4a",
         "w": 450,
         "h": 800
       }
@@ -114,9 +129,9 @@ window.ITEMS = [
     "photos": [
       {
         "label": "",
-        "thumb": "images/thumb/ikea-bedroom-suite-mirror.jpg",
-        "full": "images/full/ikea-bedroom-suite-mirror.jpg",
-        "video": "images/video/ikea-bedroom-suite-mirror.mp4",
+        "thumb": "images/thumb/ikea-bedroom-suite-mirror.jpg?v=c928146e",
+        "full": "images/full/ikea-bedroom-suite-mirror.jpg?v=cc64f493",
+        "video": "images/video/ikea-bedroom-suite-mirror.mp4?v=8f72369a",
         "w": 453,
         "h": 800
       }
@@ -130,28 +145,13 @@ window.ITEMS = [
     "photos": [
       {
         "label": "",
-        "thumb": "images/thumb/ikea-vihals-day-bed-00595086-with-afjall-foam-matt-30568642.jpg",
-        "full": "images/full/ikea-vihals-day-bed-00595086-with-afjall-foam-matt-30568642.jpg",
+        "thumb": "images/thumb/ikea-vihals-day-bed-00595086-with-afjall-foam-matt-30568642.jpg?v=733b69c6",
+        "full": "images/full/ikea-vihals-day-bed-00595086-with-afjall-foam-matt-30568642.jpg?v=03d40cae",
         "w": 800,
         "h": 600
       }
     ],
     "room": "Bedroom"
-  },
-  {
-    "id": "jungle-gym",
-    "title": "Jungle Gym",
-    "sold": false,
-    "photos": [
-      {
-        "label": "",
-        "thumb": "images/thumb/jungle-gym.jpg",
-        "full": "images/full/jungle-gym.jpg",
-        "w": 600,
-        "h": 800
-      }
-    ],
-    "room": "Outdoor"
   },
   {
     "id": "large-chest-of-drawers",
@@ -160,8 +160,8 @@ window.ITEMS = [
     "photos": [
       {
         "label": "",
-        "thumb": "images/thumb/large-chest-of-drawers.jpg",
-        "full": "images/full/large-chest-of-drawers.jpg",
+        "thumb": "images/thumb/large-chest-of-drawers.jpg?v=802ff5ac",
+        "full": "images/full/large-chest-of-drawers.jpg?v=87e39228",
         "w": 800,
         "h": 600
       }
@@ -175,8 +175,8 @@ window.ITEMS = [
     "photos": [
       {
         "label": "",
-        "thumb": "images/thumb/large-dinner-bowls-x8.jpg",
-        "full": "images/full/large-dinner-bowls-x8.jpg",
+        "thumb": "images/thumb/large-dinner-bowls-x8.jpg?v=353b36a6",
+        "full": "images/full/large-dinner-bowls-x8.jpg?v=00444ebb",
         "w": 800,
         "h": 600
       }
@@ -190,8 +190,8 @@ window.ITEMS = [
     "photos": [
       {
         "label": "",
-        "thumb": "images/thumb/large-dinner-plates-x5.jpg",
-        "full": "images/full/large-dinner-plates-x5.jpg",
+        "thumb": "images/thumb/large-dinner-plates-x5.jpg?v=aac16cbd",
+        "full": "images/full/large-dinner-plates-x5.jpg?v=9466cd0f",
         "w": 800,
         "h": 600
       }
@@ -205,8 +205,8 @@ window.ITEMS = [
     "photos": [
       {
         "label": "",
-        "thumb": "images/thumb/large-rimmed-dinner-plates-x4.jpg",
-        "full": "images/full/large-rimmed-dinner-plates-x4.jpg",
+        "thumb": "images/thumb/large-rimmed-dinner-plates-x4.jpg?v=96d0e9cd",
+        "full": "images/full/large-rimmed-dinner-plates-x4.jpg?v=1aaab4bd",
         "w": 800,
         "h": 600
       }
@@ -220,36 +220,36 @@ window.ITEMS = [
     "photos": [
       {
         "label": "All pieces",
-        "thumb": "images/thumb/porcelain-set-all-pieces.jpg",
-        "full": "images/full/porcelain-set-all-pieces.jpg",
+        "thumb": "images/thumb/porcelain-set-all-pieces.jpg?v=82be1279",
+        "full": "images/full/porcelain-set-all-pieces.jpg?v=c57e830c",
         "w": 600,
         "h": 800
       },
       {
         "label": "Blue dish",
-        "thumb": "images/thumb/porcelain-set-blue-dish.jpg",
-        "full": "images/full/porcelain-set-blue-dish.jpg",
+        "thumb": "images/thumb/porcelain-set-blue-dish.jpg?v=c1027a26",
+        "full": "images/full/porcelain-set-blue-dish.jpg?v=59228021",
         "w": 800,
         "h": 600
       },
       {
         "label": "Grey dish",
-        "thumb": "images/thumb/porcelain-set-grey-dish.jpg",
-        "full": "images/full/porcelain-set-grey-dish.jpg",
+        "thumb": "images/thumb/porcelain-set-grey-dish.jpg?v=f76ae856",
+        "full": "images/full/porcelain-set-grey-dish.jpg?v=3ed07aae",
         "w": 800,
         "h": 600
       },
       {
         "label": "Red dish",
-        "thumb": "images/thumb/porcelain-set-red-dish.jpg",
-        "full": "images/full/porcelain-set-red-dish.jpg",
+        "thumb": "images/thumb/porcelain-set-red-dish.jpg?v=948af526",
+        "full": "images/full/porcelain-set-red-dish.jpg?v=94a61cc6",
         "w": 800,
         "h": 600
       },
       {
         "label": "Serving dish",
-        "thumb": "images/thumb/porcelain-set-serving-dish.jpg",
-        "full": "images/full/porcelain-set-serving-dish.jpg",
+        "thumb": "images/thumb/porcelain-set-serving-dish.jpg?v=b005d7d4",
+        "full": "images/full/porcelain-set-serving-dish.jpg?v=f7b9ea4e",
         "w": 800,
         "h": 600
       }
@@ -260,14 +260,39 @@ window.ITEMS = [
     "room": "Kitchen"
   },
   {
+    "id": "rose-wood-and-cast-iron-bed-from-luckys-in-2025",
+    "title": "Rose wood and cast iron bed from Luckys in 2025",
+    "sold": false,
+    "photos": [
+      {
+        "label": "Bed",
+        "thumb": "images/thumb/rose-wood-and-cast-iron-bed-from-luckys-in-2025-bed.jpg?v=65f0cb3c",
+        "full": "images/full/rose-wood-and-cast-iron-bed-from-luckys-in-2025-bed.jpg?v=90aff687",
+        "w": 600,
+        "h": 800
+      },
+      {
+        "label": "Close up",
+        "thumb": "images/thumb/rose-wood-and-cast-iron-bed-from-luckys-in-2025-close-up.jpg?v=1a7de976",
+        "full": "images/full/rose-wood-and-cast-iron-bed-from-luckys-in-2025-close-up.jpg?v=ce2757dc",
+        "w": 600,
+        "h": 800
+      }
+    ],
+    "description": [
+      "205 x 210 cm."
+    ],
+    "room": "Bedroom"
+  },
+  {
     "id": "siemens-62-inch-curved-tv",
     "title": "Siemens 62 inch curved TV",
     "sold": false,
     "photos": [
       {
         "label": "",
-        "thumb": "images/thumb/siemens-62-inch-curved-tv.jpg",
-        "full": "images/full/siemens-62-inch-curved-tv.jpg",
+        "thumb": "images/thumb/siemens-62-inch-curved-tv.jpg?v=3ee381be",
+        "full": "images/full/siemens-62-inch-curved-tv.jpg?v=e2b5fd37",
         "w": 800,
         "h": 600
       }
@@ -281,8 +306,8 @@ window.ITEMS = [
     "photos": [
       {
         "label": "",
-        "thumb": "images/thumb/small-bowls-x8.jpg",
-        "full": "images/full/small-bowls-x8.jpg",
+        "thumb": "images/thumb/small-bowls-x8.jpg?v=e33b917a",
+        "full": "images/full/small-bowls-x8.jpg?v=a40668a5",
         "w": 800,
         "h": 600
       }
@@ -296,8 +321,8 @@ window.ITEMS = [
     "photos": [
       {
         "label": "",
-        "thumb": "images/thumb/small-drawer.jpg",
-        "full": "images/full/small-drawer.jpg",
+        "thumb": "images/thumb/small-drawer.jpg?v=3ebad738",
+        "full": "images/full/small-drawer.jpg?v=17f85108",
         "w": 800,
         "h": 600
       }
@@ -311,15 +336,15 @@ window.ITEMS = [
     "photos": [
       {
         "label": "Full sofa",
-        "thumb": "images/thumb/sofa-suite-full-sofa.jpg",
-        "full": "images/full/sofa-suite-full-sofa.jpg",
+        "thumb": "images/thumb/sofa-suite-full-sofa.jpg?v=1e160844",
+        "full": "images/full/sofa-suite-full-sofa.jpg?v=81d5ab8a",
         "w": 800,
         "h": 450
       },
       {
         "label": "Ottoman",
-        "thumb": "images/thumb/sofa-suite-ottoman.jpg",
-        "full": "images/full/sofa-suite-ottoman.jpg",
+        "thumb": "images/thumb/sofa-suite-ottoman.jpg?v=97bb7adb",
+        "full": "images/full/sofa-suite-ottoman.jpg?v=16259991",
         "w": 600,
         "h": 800
       }
@@ -336,8 +361,8 @@ window.ITEMS = [
     "photos": [
       {
         "label": "",
-        "thumb": "images/thumb/stools-height-adjustable-six-available.jpg",
-        "full": "images/full/stools-height-adjustable-six-available.jpg",
+        "thumb": "images/thumb/stools-height-adjustable-six-available.jpg?v=bfe908e5",
+        "full": "images/full/stools-height-adjustable-six-available.jpg?v=23b30ab1",
         "w": 740,
         "h": 800
       }
@@ -354,8 +379,8 @@ window.ITEMS = [
     "photos": [
       {
         "label": "",
-        "thumb": "images/thumb/table-lamp-flower-design.jpg",
-        "full": "images/full/table-lamp-flower-design.jpg",
+        "thumb": "images/thumb/table-lamp-flower-design.jpg?v=eeaa23f3",
+        "full": "images/full/table-lamp-flower-design.jpg?v=5396688c",
         "w": 600,
         "h": 800
       }
@@ -369,36 +394,11 @@ window.ITEMS = [
     "photos": [
       {
         "label": "",
-        "thumb": "images/thumb/table-lamp-wicker.jpg",
-        "full": "images/full/table-lamp-wicker.jpg",
+        "thumb": "images/thumb/table-lamp-wicker.jpg?v=7d16e9d8",
+        "full": "images/full/table-lamp-wicker.jpg?v=4cbab72e",
         "w": 600,
         "h": 800
       }
-    ],
-    "room": "Bedroom"
-  },
-  {
-    "id": "wooden-bed",
-    "title": "Wooden Bed",
-    "sold": false,
-    "photos": [
-      {
-        "label": "Bed",
-        "thumb": "images/thumb/wooden-bed-bed.jpg",
-        "full": "images/full/wooden-bed-bed.jpg",
-        "w": 600,
-        "h": 800
-      },
-      {
-        "label": "Close up",
-        "thumb": "images/thumb/wooden-bed-close-up.jpg",
-        "full": "images/full/wooden-bed-close-up.jpg",
-        "w": 600,
-        "h": 800
-      }
-    ],
-    "description": [
-      "205 x 210 cm."
     ],
     "room": "Bedroom"
   },
@@ -409,15 +409,15 @@ window.ITEMS = [
     "photos": [
       {
         "label": "Side",
-        "thumb": "images/thumb/wooden-coffee-table-side.jpg",
-        "full": "images/full/wooden-coffee-table-side.jpg",
+        "thumb": "images/thumb/wooden-coffee-table-side.jpg?v=c61425a6",
+        "full": "images/full/wooden-coffee-table-side.jpg?v=9eefe4b5",
         "w": 800,
         "h": 518
       },
       {
         "label": "Top view",
-        "thumb": "images/thumb/wooden-coffee-table-top-view.jpg",
-        "full": "images/full/wooden-coffee-table-top-view.jpg",
+        "thumb": "images/thumb/wooden-coffee-table-top-view.jpg?v=8149563c",
+        "full": "images/full/wooden-coffee-table-top-view.jpg?v=df493e6d",
         "w": 600,
         "h": 800
       }
@@ -431,8 +431,8 @@ window.ITEMS = [
     "photos": [
       {
         "label": "",
-        "thumb": "images/thumb/wooden-dining-table.jpg",
-        "full": "images/full/wooden-dining-table.jpg",
+        "thumb": "images/thumb/wooden-dining-table.jpg?v=3ba421f0",
+        "full": "images/full/wooden-dining-table.jpg?v=746ff4e6",
         "w": 687,
         "h": 800
       }
@@ -449,29 +449,29 @@ window.ITEMS = [
     "photos": [
       {
         "label": "Front side",
-        "thumb": "images/thumb/mitsubishi-pajero-gls-front-side.jpg",
-        "full": "images/full/mitsubishi-pajero-gls-front-side.jpg",
+        "thumb": "images/thumb/mitsubishi-pajero-gls-front-side.jpg?v=228de039",
+        "full": "images/full/mitsubishi-pajero-gls-front-side.jpg?v=bfc0ce34",
         "w": 800,
         "h": 647
       },
       {
         "label": "Front",
-        "thumb": "images/thumb/mitsubishi-pajero-gls-front.jpg",
-        "full": "images/full/mitsubishi-pajero-gls-front.jpg",
+        "thumb": "images/thumb/mitsubishi-pajero-gls-front.jpg?v=6cddca90",
+        "full": "images/full/mitsubishi-pajero-gls-front.jpg?v=7d8ab2f4",
         "w": 800,
         "h": 647
       },
       {
         "label": "Rear side",
-        "thumb": "images/thumb/mitsubishi-pajero-gls-rear-side.jpg",
-        "full": "images/full/mitsubishi-pajero-gls-rear-side.jpg",
+        "thumb": "images/thumb/mitsubishi-pajero-gls-rear-side.jpg?v=c566538c",
+        "full": "images/full/mitsubishi-pajero-gls-rear-side.jpg?v=8f5b966a",
         "w": 800,
         "h": 647
       },
       {
         "label": "Rear",
-        "thumb": "images/thumb/mitsubishi-pajero-gls-rear.jpg",
-        "full": "images/full/mitsubishi-pajero-gls-rear.jpg",
+        "thumb": "images/thumb/mitsubishi-pajero-gls-rear.jpg?v=1a47c7eb",
+        "full": "images/full/mitsubishi-pajero-gls-rear.jpg?v=2385ed58",
         "w": 703,
         "h": 800
       }

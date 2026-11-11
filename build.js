@@ -226,6 +226,21 @@ for (const job of prepared) {
 
 let items = [...groups.values()];
 
+// Add a short fingerprint of each picture or video to its address ("photo.jpg?v=3fa9c1d2"). When a
+// file changes its address changes too, so browsers never keep showing an older copy.
+const crypto = require("crypto");
+function versioned(rel) {
+  const hash = crypto.createHash("md5").update(fs.readFileSync(path.join(root, rel))).digest("hex").slice(0, 8);
+  return rel + "?v=" + hash;
+}
+for (const item of items) {
+  for (const photo of item.photos) {
+    photo.thumb = versioned(photo.thumb);
+    photo.full = versioned(photo.full);
+    if (photo.video) photo.video = versioned(photo.video);
+  }
+}
+
 // Extras from details.json: a price, a description, "room" (Kitchen, Living room, Bedroom or
 // any name) to file it under a heading, "last": true to show the item in its own feature row at
 // the bottom of the page, and "touchup": "strong" for photos with a colour cast or uneven light.
