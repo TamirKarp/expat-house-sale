@@ -61,6 +61,9 @@ window.ITEMS = [
         "h": 800
       }
     ],
+    "description": [
+      "Dimensions: 169.6 cm x 59.5 cm x 65 cm."
+    ],
     "room": "Kitchen"
   },
   {

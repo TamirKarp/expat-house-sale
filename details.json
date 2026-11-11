@@ -1,6 +1,9 @@
 {
   "Hisense Top Mount Refrigerator 418 Litres RT3N418NAI": {
-    "room": "Kitchen"
+    "room": "Kitchen",
+    "description": [
+      "Dimensions: 169.6 cm x 59.5 cm x 65 cm."
+    ]
   },
   "Hoover 5-hob cooker, gas hob and electric oven": {
     "room": "Kitchen"
