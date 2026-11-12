@@ -242,7 +242,7 @@ for (const item of items) {
 }
 
 // Extras from details.json: a price, a description, "room" (Kitchen, Living room, Bedroom or
-// any name) to file it under a heading, "last": true to show the item in its own feature row at
+// any name) to file it under a heading, "status": "Under offer" to flag an item that has an offer on it, "last": true to show the item in its own feature row at
 // the bottom of the page, and "touchup": "strong" for photos with a colour cast or uneven light.
 {
   for (const [name, extra] of Object.entries(details)) {
@@ -255,6 +255,7 @@ for (const item of items) {
     if (extra.description) item.description = extra.description;
     if (extra.last) item.last = true;
     if (extra.room) item.room = extra.room;
+    if (extra.status) item.status = extra.status;
   }
 }
 items = [...items.filter((i) => !i.last), ...items.filter((i) => i.last)];

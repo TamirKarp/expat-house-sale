@@ -91,7 +91,8 @@ window.ITEMS = [
         "h": 800
       }
     ],
-    "room": "Living room"
+    "room": "Living room",
+    "status": "Under offer"
   },
   {
     "id": "hisense-top-mount-refrigerator-418-litres-rt3n418nai",
@@ -450,7 +451,8 @@ window.ITEMS = [
         "h": 800
       }
     ],
-    "room": "Bedroom"
+    "room": "Bedroom",
+    "status": "Under offer"
   },
   {
     "id": "wooden-coffee-table",

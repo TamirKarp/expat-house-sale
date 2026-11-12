@@ -40,6 +40,7 @@
   },
   "Gold floor lamp": {
     "room": "Living room",
+    "status": "Under offer",
     "touchup": "strong"
   },
   "Large chest of drawers": {
@@ -50,6 +51,7 @@
   },
   "Table lamp wicker": {
     "room": "Bedroom",
+    "status": "Under offer",
     "touchup": "strong"
   },
   "Table lamp flower design": {

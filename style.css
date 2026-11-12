@@ -200,6 +200,7 @@ button.tile { cursor: pointer; transition: transform 0.15s ease, box-shadow 0.15
 .sold .cap-cta { color: var(--muted); }
 
 .sold .media img { filter: grayscale(1); opacity: 0.5; }
+.stamp-status span { font-size: clamp(1.4rem, 4.5vw, 2.4rem); border-width: 0.22rem; }
 .stamp { position: absolute; inset: 0; display: grid; place-items: center; pointer-events: none; }
 .stamp span {
   transform: rotate(-12deg);

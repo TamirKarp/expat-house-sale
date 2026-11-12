@@ -13,6 +13,7 @@
   const offerItem = document.getElementById("offer-item");
   const offerWa = document.getElementById("offer-wa");
   const offerPrice = document.getElementById("offer-price");
+  const offerPrompt = document.getElementById("offer-prompt");
   const offerDetails = document.getElementById("offer-details");
   const offerBody = document.querySelector(".offer-body");
 
@@ -54,10 +55,10 @@
       media.append(el("span", "badge", "▶ Video"));
     }
 
-    if (item.sold) {
-      const stamp = el("span", "stamp");
+    if (item.sold || item.status) {
+      const stamp = el("span", "stamp" + (item.sold ? "" : " stamp-status"));
       stamp.setAttribute("aria-hidden", "true");
-      stamp.append(el("span", "", "Sold"));
+      stamp.append(el("span", "", item.sold ? "Sold" : item.status));
       media.append(stamp);
     }
 
@@ -66,7 +67,7 @@
     text.append(el("span", "cap-title", item.title));
     if (item.price && !item.sold) text.append(el("span", "cap-price", "Asking " + item.price));
     cap.append(text);
-    cap.append(el("span", "cap-cta", item.sold ? "Sold" : "Make an offer →"));
+    cap.append(el("span", "cap-cta", item.sold ? "Sold" : item.status ? item.status : "Make an offer →"));
 
     tile.append(media, cap);
     return tile;
@@ -131,6 +132,10 @@
     offerItem.textContent = item.title;
 
     offerWa.href = waLink("Hi, I would like to make an offer for the " + item.title + ". My offer is: ");
+
+    offerPrompt.textContent = item.status
+      ? "Someone has already made an offer on this. Message us if you would like to be next in line."
+      : "Tell us what you would pay. We consider all offers.";
 
     offerPrice.hidden = !item.price;
     offerPrice.textContent = item.price ? "Asking " + item.price : "";
