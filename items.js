@@ -252,6 +252,9 @@ window.ITEMS = [
         "h": 800
       }
     ],
+    "description": [
+      "Three of the 1 litre jars are available."
+    ],
     "room": "Kitchen"
   },
   {

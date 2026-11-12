@@ -1,6 +1,9 @@
 {
   "Kilner glass set": {
-    "room": "Kitchen"
+    "room": "Kitchen",
+    "description": [
+      "Three of the 1 litre jars are available."
+    ]
   },
   "Hisense Top Mount Refrigerator 418 Litres RT3N418NAI": {
     "room": "Kitchen",
