@@ -101,9 +101,9 @@ window.ITEMS = [
     "photos": [
       {
         "label": "",
-        "thumb": "images/thumb/hisense-top-mount-refrigerator-418-litres-rt3n418nai.jpg?v=4c74f99f",
-        "full": "images/full/hisense-top-mount-refrigerator-418-litres-rt3n418nai.jpg?v=d56b5738",
-        "w": 600,
+        "thumb": "images/thumb/hisense-top-mount-refrigerator-418-litres-rt3n418nai.jpg?v=566352de",
+        "full": "images/full/hisense-top-mount-refrigerator-418-litres-rt3n418nai.jpg?v=d78b924b",
+        "w": 349,
         "h": 800
       }
     ],
