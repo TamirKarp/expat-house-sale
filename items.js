@@ -205,6 +205,56 @@ window.ITEMS = [
     "room": "Bedroom"
   },
   {
+    "id": "kilner-glass-set",
+    "title": "Kilner glass set",
+    "sold": false,
+    "photos": [
+      {
+        "label": "All pieces",
+        "thumb": "images/thumb/kilner-glass-set-all-pieces.jpg?v=31963b94",
+        "full": "images/full/kilner-glass-set-all-pieces.jpg?v=8c0a29f3",
+        "w": 600,
+        "h": 800
+      },
+      {
+        "label": "Jar 0.5 litre",
+        "thumb": "images/thumb/kilner-glass-set-jar-0-5-litre.jpg?v=3f02bb0a",
+        "full": "images/full/kilner-glass-set-jar-0-5-litre.jpg?v=9b8c01b1",
+        "w": 600,
+        "h": 800
+      },
+      {
+        "label": "Jar 1 litre",
+        "thumb": "images/thumb/kilner-glass-set-jar-1-litre.jpg?v=59927caf",
+        "full": "images/full/kilner-glass-set-jar-1-litre.jpg?v=c60f3cb7",
+        "w": 600,
+        "h": 800
+      },
+      {
+        "label": "Jar 1.5 litre",
+        "thumb": "images/thumb/kilner-glass-set-jar-1-5-litre.jpg?v=40cd6c00",
+        "full": "images/full/kilner-glass-set-jar-1-5-litre.jpg?v=6cd97d83",
+        "w": 600,
+        "h": 800
+      },
+      {
+        "label": "Jar 3 litre",
+        "thumb": "images/thumb/kilner-glass-set-jar-3-litre.jpg?v=af83579c",
+        "full": "images/full/kilner-glass-set-jar-3-litre.jpg?v=47316a9f",
+        "w": 600,
+        "h": 800
+      },
+      {
+        "label": "Tap dispenser 3 litre",
+        "thumb": "images/thumb/kilner-glass-set-tap-dispenser-3-litre.jpg?v=3505b4b3",
+        "full": "images/full/kilner-glass-set-tap-dispenser-3-litre.jpg?v=2c22376d",
+        "w": 600,
+        "h": 800
+      }
+    ],
+    "room": "Kitchen"
+  },
+  {
     "id": "large-chest-of-drawers",
     "title": "Large chest of drawers",
     "sold": false,
