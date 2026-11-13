@@ -84,6 +84,7 @@
   },
   "Porcelain set": {
     "room": "Kitchen",
+    "cover": "Porcelain set.jpg",
     "description": [
       "The blue, grey and red porcelain dishes are oven safe."
     ]

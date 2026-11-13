@@ -242,7 +242,7 @@ for (const item of items) {
 }
 
 // Extras from details.json: a price, a description, "room" (Kitchen, Living room, Bedroom or
-// any name) to file it under a heading, "status": "Under offer" to flag an item that has an offer on it, "last": true to show the item in its own feature row at
+// any name) to file it under a heading, "status": "Under offer" to flag an item that has an offer on it, "cover": a file in photos/covers to use as the tile picture instead of the first photo (the pop-up is unchanged), "last": true to show the item in its own feature row at
 // the bottom of the page, and "touchup": "strong" for photos with a colour cast or uneven light.
 {
   for (const [name, extra] of Object.entries(details)) {
@@ -256,7 +256,26 @@ for (const item of items) {
     if (extra.last) item.last = true;
     if (extra.room) item.room = extra.room;
     if (extra.status) item.status = extra.status;
+    if (extra.cover) item.coverFile = extra.cover;
   }
+}
+
+// A "cover" is a picture made just for the tile (for example two photos joined side by side). It
+// lives in photos/covers and only replaces the thumbnail; the pop-up still opens on the first photo.
+for (const item of items) {
+  if (!item.coverFile) continue;
+  const file = path.join(source, "covers", item.coverFile);
+  if (!fs.existsSync(file)) {
+    console.warn('Cover "' + item.coverFile + '" for "' + item.title + '" is not in photos/covers, so it was ignored.');
+  } else {
+    const rel = "images/thumb/" + slugFrom(item.title) + "-cover.jpg";
+    const tmp = path.join(os.tmpdir(), "expat-cover-" + slugFrom(item.title) + ".jpg");
+    makeJpeg(file, tmp, FULL_SIZE);
+    if (!enhanceInto(tmp, path.join(root, rel), false)) makeJpeg(file, path.join(root, rel), THUMB_SIZE);
+    const { w, h } = dimensions(path.join(root, rel));
+    item.cover = { thumb: versioned(rel), w, h };
+  }
+  delete item.coverFile;
 }
 items = [...items.filter((i) => !i.last), ...items.filter((i) => i.last)];
 

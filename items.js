@@ -427,7 +427,12 @@ window.ITEMS = [
     "description": [
       "The blue, grey and red porcelain dishes are oven safe."
     ],
-    "room": "Kitchen"
+    "room": "Kitchen",
+    "cover": {
+      "thumb": "images/thumb/porcelain-set-cover.jpg?v=ffa884e9",
+      "w": 800,
+      "h": 533
+    }
   },
   {
     "id": "rose-wood-and-cast-iron-bed-from-luckys-in-2025",

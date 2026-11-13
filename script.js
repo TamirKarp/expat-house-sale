@@ -35,7 +35,7 @@
       tile.addEventListener("click", () => openOffer(item));
     }
 
-    const cover = item.photos[0];
+    const cover = item.cover || item.photos[0]; // a cover is a picture made just for the tile
     const media = el("span", "media");
     const img = new Image();
     img.src = cover.thumb;
