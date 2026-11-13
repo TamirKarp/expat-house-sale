@@ -61,6 +61,21 @@ window.ITEMS = [
     "room": "Living room"
   },
   {
+    "id": "four-dining-chairs",
+    "title": "Four dining chairs",
+    "sold": false,
+    "photos": [
+      {
+        "label": "",
+        "thumb": "images/thumb/four-dining-chairs.jpg?v=c51b9c30",
+        "full": "images/full/four-dining-chairs.jpg?v=0897b5c4",
+        "w": 600,
+        "h": 800
+      }
+    ],
+    "room": "Kitchen"
+  },
+  {
     "id": "glass-top-large-coffee-table-with-drawer",
     "title": "Glass-top large coffee table with drawer",
     "sold": false,
@@ -205,6 +220,20 @@ window.ITEMS = [
     "room": "Bedroom"
   },
   {
+    "id": "kettlebells-and-barbell-weight-set",
+    "title": "Kettlebells and barbell weight set",
+    "sold": false,
+    "photos": [
+      {
+        "label": "",
+        "thumb": "images/thumb/kettlebells-and-barbell-weight-set.jpg?v=40cb9587",
+        "full": "images/full/kettlebells-and-barbell-weight-set.jpg?v=a02ebdbf",
+        "w": 800,
+        "h": 600
+      }
+    ]
+  },
+  {
     "id": "kilner-glass-set",
     "title": "Kilner glass set",
     "sold": false,
@@ -258,6 +287,21 @@ window.ITEMS = [
     "room": "Kitchen"
   },
   {
+    "id": "large-and-medium-stainless-steel-skillets",
+    "title": "Large and medium stainless steel skillets",
+    "sold": false,
+    "photos": [
+      {
+        "label": "",
+        "thumb": "images/thumb/large-and-medium-stainless-steel-skillets.jpg?v=1172240e",
+        "full": "images/full/large-and-medium-stainless-steel-skillets.jpg?v=28b5d595",
+        "w": 600,
+        "h": 800
+      }
+    ],
+    "room": "Kitchen"
+  },
+  {
     "id": "large-chest-of-drawers",
     "title": "Large chest of drawers",
     "sold": false,
@@ -271,6 +315,21 @@ window.ITEMS = [
       }
     ],
     "room": "Bedroom"
+  },
+  {
+    "id": "large-clock",
+    "title": "Large clock",
+    "sold": false,
+    "photos": [
+      {
+        "label": "",
+        "thumb": "images/thumb/large-clock.jpg?v=21ed96ca",
+        "full": "images/full/large-clock.jpg?v=f5a316f5",
+        "w": 600,
+        "h": 800
+      }
+    ],
+    "room": "Living room"
   },
   {
     "id": "large-dinner-bowls-x8",
@@ -337,6 +396,13 @@ window.ITEMS = [
         "h": 600
       },
       {
+        "label": "Bowls on stand",
+        "thumb": "images/thumb/porcelain-set-bowls-on-stand.jpg?v=a65a7f91",
+        "full": "images/full/porcelain-set-bowls-on-stand.jpg?v=e72b2895",
+        "w": 600,
+        "h": 800
+      },
+      {
         "label": "Grey dish",
         "thumb": "images/thumb/porcelain-set-grey-dish.jpg?v=f76ae856",
         "full": "images/full/porcelain-set-grey-dish.jpg?v=3ed07aae",
@@ -387,6 +453,42 @@ window.ITEMS = [
       "205 x 210 cm."
     ],
     "room": "Bedroom"
+  },
+  {
+    "id": "royalford-2-tier-steamer-large",
+    "title": "Royalford 2-tier steamer - large",
+    "sold": false,
+    "photos": [
+      {
+        "label": "",
+        "thumb": "images/thumb/royalford-2-tier-steamer-large.jpg?v=3e0b4af6",
+        "full": "images/full/royalford-2-tier-steamer-large.jpg?v=e62bd05e",
+        "w": 600,
+        "h": 800
+      }
+    ],
+    "room": "Kitchen"
+  },
+  {
+    "id": "shoe-cabinet",
+    "title": "Shoe cabinet",
+    "sold": false,
+    "photos": [
+      {
+        "label": "Closed",
+        "thumb": "images/thumb/shoe-cabinet-closed.jpg?v=e785e0b8",
+        "full": "images/full/shoe-cabinet-closed.jpg?v=00f196ab",
+        "w": 600,
+        "h": 800
+      },
+      {
+        "label": "Open",
+        "thumb": "images/thumb/shoe-cabinet-open.jpg?v=79209c42",
+        "full": "images/full/shoe-cabinet-open.jpg?v=679dc2d7",
+        "w": 600,
+        "h": 800
+      }
+    ]
   },
   {
     "id": "siemens-62-inch-curved-tv",
@@ -506,6 +608,36 @@ window.ITEMS = [
     ],
     "room": "Bedroom",
     "status": "Under offer"
+  },
+  {
+    "id": "two-fine-glass-water-jugs",
+    "title": "Two fine glass water jugs",
+    "sold": false,
+    "photos": [
+      {
+        "label": "",
+        "thumb": "images/thumb/two-fine-glass-water-jugs.jpg?v=5031c34f",
+        "full": "images/full/two-fine-glass-water-jugs.jpg?v=ed5a88af",
+        "w": 600,
+        "h": 800
+      }
+    ],
+    "room": "Kitchen"
+  },
+  {
+    "id": "two-large-glass-mixing-bowls",
+    "title": "Two large glass mixing bowls",
+    "sold": false,
+    "photos": [
+      {
+        "label": "",
+        "thumb": "images/thumb/two-large-glass-mixing-bowls.jpg?v=59370952",
+        "full": "images/full/two-large-glass-mixing-bowls.jpg?v=0e9ef9d3",
+        "w": 600,
+        "h": 800
+      }
+    ],
+    "room": "Kitchen"
   },
   {
     "id": "wooden-coffee-table",
