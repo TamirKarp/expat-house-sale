@@ -726,8 +726,8 @@ window.ITEMS = [
       },
       {
         "label": "Interior load space",
-        "thumb": "images/thumb/mitsubishi-pajero-gls-interior-load-space.jpg?v=ab0b97f7",
-        "full": "images/full/mitsubishi-pajero-gls-interior-load-space.jpg?v=6166f8df",
+        "thumb": "images/thumb/mitsubishi-pajero-gls-interior-load-space.jpg?v=bb19d15c",
+        "full": "images/full/mitsubishi-pajero-gls-interior-load-space.jpg?v=3b7c924a",
         "w": 800,
         "h": 600
       },
