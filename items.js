@@ -704,9 +704,37 @@ window.ITEMS = [
         "h": 647
       },
       {
-        "label": "Interior",
-        "thumb": "images/thumb/mitsubishi-pajero-gls-interior.jpg?v=54281d20",
-        "full": "images/full/mitsubishi-pajero-gls-interior.jpg?v=f98f587f",
+        "label": "Interior cabin",
+        "thumb": "images/thumb/mitsubishi-pajero-gls-interior-cabin.jpg?v=54281d20",
+        "full": "images/full/mitsubishi-pajero-gls-interior-cabin.jpg?v=f98f587f",
+        "w": 800,
+        "h": 600
+      },
+      {
+        "label": "Interior dashboard",
+        "thumb": "images/thumb/mitsubishi-pajero-gls-interior-dashboard.jpg?v=a5c7e5bf",
+        "full": "images/full/mitsubishi-pajero-gls-interior-dashboard.jpg?v=0e8cf1ef",
+        "w": 800,
+        "h": 600
+      },
+      {
+        "label": "Interior gear console",
+        "thumb": "images/thumb/mitsubishi-pajero-gls-interior-gear-console.jpg?v=12fcafbe",
+        "full": "images/full/mitsubishi-pajero-gls-interior-gear-console.jpg?v=317eab79",
+        "w": 600,
+        "h": 800
+      },
+      {
+        "label": "Interior load space",
+        "thumb": "images/thumb/mitsubishi-pajero-gls-interior-load-space.jpg?v=ab0b97f7",
+        "full": "images/full/mitsubishi-pajero-gls-interior-load-space.jpg?v=6166f8df",
+        "w": 800,
+        "h": 600
+      },
+      {
+        "label": "Interior rear seats",
+        "thumb": "images/thumb/mitsubishi-pajero-gls-interior-rear-seats.jpg?v=d602caac",
+        "full": "images/full/mitsubishi-pajero-gls-interior-rear-seats.jpg?v=9677275d",
         "w": 800,
         "h": 600
       },
