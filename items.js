@@ -704,6 +704,13 @@ window.ITEMS = [
         "h": 647
       },
       {
+        "label": "Interior",
+        "thumb": "images/thumb/mitsubishi-pajero-gls-interior.jpg?v=54281d20",
+        "full": "images/full/mitsubishi-pajero-gls-interior.jpg?v=f98f587f",
+        "w": 800,
+        "h": 600
+      },
+      {
         "label": "Rear side",
         "thumb": "images/thumb/mitsubishi-pajero-gls-rear-side.jpg?v=c566538c",
         "full": "images/full/mitsubishi-pajero-gls-rear-side.jpg?v=8f5b966a",
