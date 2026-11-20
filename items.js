@@ -687,7 +687,7 @@ window.ITEMS = [
   {
     "id": "mitsubishi-pajero-gls",
     "title": "Mitsubishi Pajero GLS",
-    "sold": false,
+    "sold": true,
     "photos": [
       {
         "label": "Front side",
