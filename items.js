@@ -645,6 +645,45 @@ window.ITEMS = [
     "room": "Kitchen"
   },
   {
+    "id": "two-maxi-cosi-titan-pro-i-size-car-seats",
+    "title": "Two Maxi Cosi Titan Pro i-size car seats",
+    "sold": false,
+    "photos": [
+      {
+        "label": "Both seats",
+        "thumb": "images/thumb/two-maxi-cosi-titan-pro-i-size-car-seats-both-seats.jpg?v=68d3fe08",
+        "full": "images/full/two-maxi-cosi-titan-pro-i-size-car-seats-both-seats.jpg?v=93b44f82",
+        "w": 800,
+        "h": 600
+      },
+      {
+        "label": "Front",
+        "thumb": "images/thumb/two-maxi-cosi-titan-pro-i-size-car-seats-front.jpg?v=635842f6",
+        "full": "images/full/two-maxi-cosi-titan-pro-i-size-car-seats-front.jpg?v=b1abc040",
+        "w": 600,
+        "h": 800
+      },
+      {
+        "label": "Rear",
+        "thumb": "images/thumb/two-maxi-cosi-titan-pro-i-size-car-seats-rear.jpg?v=c2721803",
+        "full": "images/full/two-maxi-cosi-titan-pro-i-size-car-seats-rear.jpg?v=b902dbff",
+        "w": 600,
+        "h": 800
+      },
+      {
+        "label": "Side",
+        "thumb": "images/thumb/two-maxi-cosi-titan-pro-i-size-car-seats-side.jpg?v=8386fc9f",
+        "full": "images/full/two-maxi-cosi-titan-pro-i-size-car-seats-side.jpg?v=ff7137dc",
+        "w": 600,
+        "h": 800
+      }
+    ],
+    "description": [
+      "Both seats are available.",
+      "i-Size seats for children from 76 to 150 cm tall."
+    ]
+  },
+  {
     "id": "wooden-coffee-table",
     "title": "Wooden coffee table",
     "sold": false,

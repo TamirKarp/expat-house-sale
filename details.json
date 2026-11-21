@@ -179,5 +179,11 @@
   },
   "Canon printer": {
     "room": "Living room"
+  },
+  "Two Maxi Cosi Titan Pro i-size car seats": {
+    "description": [
+      "Both seats are available.",
+      "i-Size seats for children from 76 to 150 cm tall."
+    ]
   }
 }
