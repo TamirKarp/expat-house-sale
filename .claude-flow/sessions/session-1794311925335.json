@@ -1,0 +1,15 @@
+{
+  "id": "session-1794311925335",
+  "startedAt": "2026-11-10T11:58:45.335Z",
+  "cwd": "/Users/tamirkarp/Documents/Claude/Projects/Quick Static Website Builds/expat-house-sale",
+  "context": {},
+  "metrics": {
+    "edits": 57,
+    "commands": 0,
+    "tasks": 0,
+    "errors": 0
+  },
+  "restoredAt": "2026-11-11T09:42:40.138Z",
+  "endedAt": "2026-11-11T18:36:09.784Z",
+  "duration": 110244450
+}

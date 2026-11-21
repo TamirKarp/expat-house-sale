@@ -1,0 +1,116 @@
+[
+  {
+    "timestamp": 1794422169784,
+    "nodes": 5,
+    "edges": 10,
+    "pageRankSum": 1,
+    "confidences": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "accessCounts": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "topPatterns": [
+      {
+        "id": "insight-1794422169782-w2c6",
+        "summary": "Frequently edited: build.js (13x)",
+        "confidence": 0.5,
+        "pageRank": 0.4066325711054515,
+        "accessCount": 0
+      },
+      {
+        "id": "insight-1794422169782-6hpk",
+        "summary": "Frequently edited: style.css (6x)",
+        "confidence": 0.5,
+        "pageRank": 0.2198013380464277,
+        "accessCount": 0
+      },
+      {
+        "id": "insight-1794422169782-t9vn",
+        "summary": "Frequently edited: script.js (10x)",
+        "confidence": 0.5,
+        "pageRank": 0.15424651549142426,
+        "accessCount": 0
+      },
+      {
+        "id": "insight-1794422169782-ikn2",
+        "summary": "Frequently edited: index.html (5x)",
+        "confidence": 0.5,
+        "pageRank": 0.12019207937632201,
+        "accessCount": 0
+      },
+      {
+        "id": "insight-1794422169782-2msk",
+        "summary": "Frequently edited: details.json (4x)",
+        "confidence": 0.5,
+        "pageRank": 0.09912749598037465,
+        "accessCount": 0
+      }
+    ]
+  },
+  {
+    "timestamp": 1794593027430,
+    "nodes": 5,
+    "edges": 10,
+    "pageRankSum": 1,
+    "confidences": [
+      0.495,
+      0.495,
+      0.495,
+      0.495,
+      0.495
+    ],
+    "accessCounts": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "topPatterns": [
+      {
+        "id": "insight-1794422169782-w2c6",
+        "summary": "Frequently edited: build.js (13x)",
+        "confidence": 0.495,
+        "pageRank": 0.4066325711054515,
+        "accessCount": 0
+      },
+      {
+        "id": "insight-1794422169782-6hpk",
+        "summary": "Frequently edited: style.css (6x)",
+        "confidence": 0.495,
+        "pageRank": 0.2198013380464277,
+        "accessCount": 0
+      },
+      {
+        "id": "insight-1794422169782-t9vn",
+        "summary": "Frequently edited: script.js (10x)",
+        "confidence": 0.495,
+        "pageRank": 0.15424651549142426,
+        "accessCount": 0
+      },
+      {
+        "id": "insight-1794422169782-ikn2",
+        "summary": "Frequently edited: index.html (5x)",
+        "confidence": 0.495,
+        "pageRank": 0.12019207937632201,
+        "accessCount": 0
+      },
+      {
+        "id": "insight-1794422169782-2msk",
+        "summary": "Frequently edited: details.json (4x)",
+        "confidence": 0.495,
+        "pageRank": 0.09912749598037465,
+        "accessCount": 0
+      }
+    ]
+  }
+]

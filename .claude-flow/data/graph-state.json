@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "updatedAt": 1795345696669,
+  "nodeCount": 5,
+  "contentFingerprint": "354020b4_5bd11adf_241",
+  "nodes": {
+    "insight-1794422169782-2msk": {
+      "id": "insight-1794422169782-2msk",
+      "category": "insights",
+      "confidence": 0.5,
+      "accessCount": 0,
+      "createdAt": 1794422169782
+    },
+    "insight-1794422169782-ikn2": {
+      "id": "insight-1794422169782-ikn2",
+      "category": "insights",
+      "confidence": 0.5,
+      "accessCount": 0,
+      "createdAt": 1794422169782
+    },
+    "insight-1794422169782-t9vn": {
+      "id": "insight-1794422169782-t9vn",
+      "category": "insights",
+      "confidence": 0.5,
+      "accessCount": 0,
+      "createdAt": 1794422169782
+    },
+    "insight-1794422169782-6hpk": {
+      "id": "insight-1794422169782-6hpk",
+      "category": "insights",
+      "confidence": 0.5,
+      "accessCount": 0,
+      "createdAt": 1794422169782
+    },
+    "insight-1794422169782-w2c6": {
+      "id": "insight-1794422169782-w2c6",
+      "category": "insights",
+      "confidence": 0.5,
+      "accessCount": 0,
+      "createdAt": 1794422169782
+    }
+  },
+  "edges": [
+    {
+      "sourceId": "insight-1794422169782-2msk",
+      "targetId": "insight-1794422169782-ikn2",
+      "type": "similar",
+      "weight": 0.8775510204081632
+    },
+    {
+      "sourceId": "insight-1794422169782-2msk",
+      "targetId": "insight-1794422169782-t9vn",
+      "type": "similar",
+      "weight": 0.8865979381443299
+    },
+    {
+      "sourceId": "insight-1794422169782-2msk",
+      "targetId": "insight-1794422169782-6hpk",
+      "type": "similar",
+      "weight": 0.8865979381443299
+    },
+    {
+      "sourceId": "insight-1794422169782-2msk",
+      "targetId": "insight-1794422169782-w2c6",
+      "type": "similar",
+      "weight": 0.9247311827956989
+    },
+    {
+      "sourceId": "insight-1794422169782-ikn2",
+      "targetId": "insight-1794422169782-t9vn",
+      "type": "similar",
+      "weight": 0.9052631578947369
+    },
+    {
+      "sourceId": "insight-1794422169782-ikn2",
+      "targetId": "insight-1794422169782-6hpk",
+      "type": "similar",
+      "weight": 0.9052631578947369
+    },
+    {
+      "sourceId": "insight-1794422169782-ikn2",
+      "targetId": "insight-1794422169782-w2c6",
+      "type": "similar",
+      "weight": 0.945054945054945
+    },
+    {
+      "sourceId": "insight-1794422169782-t9vn",
+      "targetId": "insight-1794422169782-6hpk",
+      "type": "similar",
+      "weight": 0.9148936170212766
+    },
+    {
+      "sourceId": "insight-1794422169782-t9vn",
+      "targetId": "insight-1794422169782-w2c6",
+      "type": "similar",
+      "weight": 0.9555555555555556
+    },
+    {
+      "sourceId": "insight-1794422169782-6hpk",
+      "targetId": "insight-1794422169782-w2c6",
+      "type": "similar",
+      "weight": 0.9555555555555556
+    }
+  ],
+  "pageRanks": {
+    "insight-1794422169782-2msk": 0.09912749598037465,
+    "insight-1794422169782-ikn2": 0.12019207937632201,
+    "insight-1794422169782-t9vn": 0.15424651549142426,
+    "insight-1794422169782-6hpk": 0.2198013380464277,
+    "insight-1794422169782-w2c6": 0.4066325711054515
+  }
+}
