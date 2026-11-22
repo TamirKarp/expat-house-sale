@@ -110,6 +110,31 @@ window.ITEMS = [
     "status": "Under offer"
   },
   {
+    "id": "heavy-duty-gym-floor-tile",
+    "title": "Heavy duty gym floor tile",
+    "sold": false,
+    "photos": [
+      {
+        "label": "Surface",
+        "thumb": "images/thumb/heavy-duty-gym-floor-tile-surface.jpg?v=509f5698",
+        "full": "images/full/heavy-duty-gym-floor-tile-surface.jpg?v=4d33a1de",
+        "w": 800,
+        "h": 600
+      },
+      {
+        "label": "Thickness",
+        "thumb": "images/thumb/heavy-duty-gym-floor-tile-thickness.jpg?v=c938a43d",
+        "full": "images/full/heavy-duty-gym-floor-tile-thickness.jpg?v=2c07999b",
+        "w": 800,
+        "h": 600
+      }
+    ],
+    "description": [
+      "There are six available.",
+      "Perfect for a home or outdoor spot to do your workout, protecting your flooring from heavy weights."
+    ]
+  },
+  {
     "id": "hisense-top-mount-refrigerator-418-litres-rt3n418nai",
     "title": "Hisense Top Mount Refrigerator 418 Litres RT3N418NAI",
     "sold": false,
