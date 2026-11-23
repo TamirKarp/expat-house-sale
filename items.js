@@ -328,7 +328,8 @@ window.ITEMS = [
         "h": 800
       }
     ],
-    "room": "Kitchen"
+    "room": "Kitchen",
+    "status": "Under offer"
   },
   {
     "id": "large-chest-of-drawers",

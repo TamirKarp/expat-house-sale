@@ -3,7 +3,8 @@
     "room": "Kitchen"
   },
   "Large and medium stainless steel skillets": {
-    "room": "Kitchen"
+    "room": "Kitchen",
+    "status": "Under offer"
   },
   "Two fine glass water jugs": {
     "room": "Kitchen"
