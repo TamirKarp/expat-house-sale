@@ -734,7 +734,12 @@ window.ITEMS = [
         "h": 800
       }
     ],
-    "room": "Living room"
+    "room": "Living room",
+    "cover": {
+      "thumb": "images/thumb/wooden-coffee-table-cover.jpg?v=2ee6069b",
+      "w": 648,
+      "h": 800
+    }
   },
   {
     "id": "wooden-dining-table",

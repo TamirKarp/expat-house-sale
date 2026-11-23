@@ -108,7 +108,8 @@
     "status": "Under offer"
   },
   "Wooden coffee table": {
-    "room": "Living room"
+    "room": "Living room",
+    "cover": "Wooden coffee table.jpg"
   },
   "Glass-top large coffee table with drawer": {
     "room": "Living room",
