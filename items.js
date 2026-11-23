@@ -111,21 +111,21 @@ window.ITEMS = [
     "status": "Under offer"
   },
   {
-    "id": "heavy-duty-gym-floor-tile",
-    "title": "Heavy duty gym floor tile",
+    "id": "heavy-duty-gym-floor-tile-x6",
+    "title": "Heavy duty gym floor tile (X6)",
     "sold": false,
     "photos": [
       {
         "label": "Surface",
-        "thumb": "images/thumb/heavy-duty-gym-floor-tile-surface.jpg?v=509f5698",
-        "full": "images/full/heavy-duty-gym-floor-tile-surface.jpg?v=4d33a1de",
+        "thumb": "images/thumb/heavy-duty-gym-floor-tile-x6-surface.jpg?v=509f5698",
+        "full": "images/full/heavy-duty-gym-floor-tile-x6-surface.jpg?v=4d33a1de",
         "w": 800,
         "h": 600
       },
       {
         "label": "Thickness",
-        "thumb": "images/thumb/heavy-duty-gym-floor-tile-thickness.jpg?v=c938a43d",
-        "full": "images/full/heavy-duty-gym-floor-tile-thickness.jpg?v=2c07999b",
+        "thumb": "images/thumb/heavy-duty-gym-floor-tile-x6-thickness.jpg?v=c938a43d",
+        "full": "images/full/heavy-duty-gym-floor-tile-x6-thickness.jpg?v=2c07999b",
         "w": 800,
         "h": 600
       }
