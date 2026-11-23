@@ -25,12 +25,14 @@
   },
   "Hisense Top Mount Refrigerator 418 Litres RT3N418NAI": {
     "room": "Kitchen",
+    "status": "Under offer",
     "description": [
       "Dimensions: 169.6 cm x 59.5 cm x 65 cm."
     ]
   },
   "Hoover 5-hob cooker, gas hob and electric oven": {
-    "room": "Kitchen"
+    "room": "Kitchen",
+    "status": "Under offer"
   },
   "Camping icebox set": {
     "room": "Kitchen"
@@ -102,7 +104,8 @@
     "room": "Kitchen"
   },
   "Siemens 62 inch curved TV": {
-    "room": "Living room"
+    "room": "Living room",
+    "status": "Under offer"
   },
   "Wooden coffee table": {
     "room": "Living room"
@@ -178,7 +181,14 @@
     "room": "Living room"
   },
   "Canon printer": {
-    "room": "Living room"
+    "room": "Living room",
+    "status": "Under offer"
+  },
+  "Kettlebells and barbell weight set": {
+    "status": "Under offer"
+  },
+  "Shoe cabinet": {
+    "status": "Under offer"
   },
   "Two Maxi Cosi Titan Pro i-size car seats": {
     "description": [

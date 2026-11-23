@@ -28,7 +28,8 @@ window.ITEMS = [
         "h": 270
       }
     ],
-    "room": "Living room"
+    "room": "Living room",
+    "status": "Under offer"
   },
   {
     "id": "dutch-wooden-jungle-gym",
@@ -150,7 +151,8 @@ window.ITEMS = [
     "description": [
       "Dimensions: 169.6 cm x 59.5 cm x 65 cm."
     ],
-    "room": "Kitchen"
+    "room": "Kitchen",
+    "status": "Under offer"
   },
   {
     "id": "hoover-5-hob-cooker-gas-hob-and-electric-oven",
@@ -172,7 +174,8 @@ window.ITEMS = [
         "h": 800
       }
     ],
-    "room": "Kitchen"
+    "room": "Kitchen",
+    "status": "Under offer"
   },
   {
     "id": "ikea-aheim-804-100-55",
@@ -256,7 +259,8 @@ window.ITEMS = [
         "w": 800,
         "h": 600
       }
-    ]
+    ],
+    "status": "Under offer"
   },
   {
     "id": "kilner-glass-set",
@@ -518,7 +522,8 @@ window.ITEMS = [
         "w": 600,
         "h": 800
       }
-    ]
+    ],
+    "status": "Under offer"
   },
   {
     "id": "siemens-62-inch-curved-tv",
@@ -533,7 +538,8 @@ window.ITEMS = [
         "h": 600
       }
     ],
-    "room": "Living room"
+    "room": "Living room",
+    "status": "Under offer"
   },
   {
     "id": "small-bowls-x8",
