@@ -358,7 +358,8 @@ window.ITEMS = [
         "h": 800
       }
     ],
-    "room": "Living room"
+    "room": "Living room",
+    "status": "Under offer"
   },
   {
     "id": "large-dinner-bowls-x8",

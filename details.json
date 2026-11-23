@@ -15,7 +15,8 @@
     "room": "Kitchen"
   },
   "Large clock": {
-    "room": "Living room"
+    "room": "Living room",
+    "status": "Under offer"
   },
   "Kilner glass set": {
     "room": "Kitchen",
