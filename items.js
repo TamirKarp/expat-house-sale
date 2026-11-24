@@ -200,6 +200,7 @@ window.ITEMS = [
     "price": "AED 800 or nearest offer (ONO)",
     "priceLabel": "Suggested",
     "description": [
+      "Everything is in very good condition.",
       {
         "title": "STORKLINTA",
         "items": [
