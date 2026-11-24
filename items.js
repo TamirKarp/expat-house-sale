@@ -220,15 +220,15 @@ window.ITEMS = [
       {
         "title": "Wardrobe",
         "items": [
+          "PAX double wardrobe with ÅHEIM mirror door (804.100.55)",
           "Tall wardrobe with pull out tie rack and drawer",
-          "193 cm tall and 100 cm wide",
-          "Mirror door: IKEA ÅHEIM 804.100.55"
+          "193 cm tall and 100 cm wide"
         ]
       }
     ],
     "room": "Bedroom",
     "cover": {
-      "thumb": "images/thumb/ikea-bedroom-suite-wardrobe-cover.jpg?v=fe079a74",
+      "thumb": "images/thumb/ikea-bedroom-suite-wardrobe-cover.jpg?v=63407fe2",
       "w": 800,
       "h": 800
     }
