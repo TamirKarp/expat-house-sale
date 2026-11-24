@@ -191,6 +191,13 @@ window.ITEMS = [
         "h": 800
       },
       {
+        "label": "Collage",
+        "thumb": "images/thumb/ikea-bedroom-suite-wardrobe-collage.jpg?v=33c7a5d3",
+        "full": "images/full/ikea-bedroom-suite-wardrobe-collage.jpg?v=e721101f",
+        "w": 800,
+        "h": 800
+      },
+      {
         "label": "Wardrobe",
         "thumb": "images/thumb/ikea-bedroom-suite-wardrobe-wardrobe.jpg?v=586ac6cc",
         "full": "images/full/ikea-bedroom-suite-wardrobe-wardrobe.jpg?v=baa8aa4a",
