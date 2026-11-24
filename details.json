@@ -74,6 +74,18 @@
           "Tall wardrobe with pull out tie rack and drawer",
           "193 cm tall and 100 cm wide"
         ]
+      },
+      {
+        "title": "NISSEDAL",
+        "items": [
+          "Mirror, white, 40x150 cm"
+        ]
+      },
+      {
+        "title": "Floating shelves",
+        "items": [
+          "IKEA LACK wall shelves, white"
+        ]
       }
     ]
   },
@@ -183,9 +195,6 @@
   },
   "Dutch wooden jungle gym": {
     "room": "Outdoor"
-  },
-  "Floating shelves": {
-    "room": "Living room"
   },
   "Canon printer": {
     "room": "Living room",

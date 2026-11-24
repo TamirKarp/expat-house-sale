@@ -47,21 +47,6 @@ window.ITEMS = [
     "room": "Outdoor"
   },
   {
-    "id": "floating-shelves",
-    "title": "Floating shelves",
-    "sold": false,
-    "photos": [
-      {
-        "label": "",
-        "thumb": "images/thumb/floating-shelves.jpg?v=c56f7c90",
-        "full": "images/full/floating-shelves.jpg?v=6c4a7f60",
-        "w": 450,
-        "h": 800
-      }
-    ],
-    "room": "Living room"
-  },
-  {
     "id": "four-dining-chairs",
     "title": "Four dining chairs",
     "sold": false,
@@ -192,9 +177,16 @@ window.ITEMS = [
       },
       {
         "label": "Collage",
-        "thumb": "images/thumb/ikea-bedroom-suite-wardrobe-collage.jpg?v=33c7a5d3",
-        "full": "images/full/ikea-bedroom-suite-wardrobe-collage.jpg?v=e721101f",
+        "thumb": "images/thumb/ikea-bedroom-suite-wardrobe-collage.jpg?v=562b86c0",
+        "full": "images/full/ikea-bedroom-suite-wardrobe-collage.jpg?v=a8c416a3",
         "w": 800,
+        "h": 533
+      },
+      {
+        "label": "Floating shelves",
+        "thumb": "images/thumb/ikea-bedroom-suite-wardrobe-floating-shelves.jpg?v=c56f7c90",
+        "full": "images/full/ikea-bedroom-suite-wardrobe-floating-shelves.jpg?v=6c4a7f60",
+        "w": 450,
         "h": 800
       },
       {
@@ -233,13 +225,25 @@ window.ITEMS = [
           "Tall wardrobe with pull out tie rack and drawer",
           "193 cm tall and 100 cm wide"
         ]
+      },
+      {
+        "title": "NISSEDAL",
+        "items": [
+          "Mirror, white, 40x150 cm"
+        ]
+      },
+      {
+        "title": "Floating shelves",
+        "items": [
+          "IKEA LACK wall shelves, white"
+        ]
       }
     ],
     "room": "Bedroom",
     "cover": {
-      "thumb": "images/thumb/ikea-bedroom-suite-wardrobe-cover.jpg?v=33c7a5d3",
+      "thumb": "images/thumb/ikea-bedroom-suite-wardrobe-cover.jpg?v=562b86c0",
       "w": 800,
-      "h": 800
+      "h": 533
     }
   },
   {
@@ -627,21 +631,6 @@ window.ITEMS = [
     "room": "Kitchen"
   },
   {
-    "id": "table-lamp-flower-design",
-    "title": "Table lamp flower design",
-    "sold": false,
-    "photos": [
-      {
-        "label": "",
-        "thumb": "images/thumb/table-lamp-flower-design.jpg?v=eeaa23f3",
-        "full": "images/full/table-lamp-flower-design.jpg?v=5396688c",
-        "w": 600,
-        "h": 800
-      }
-    ],
-    "room": "Bedroom"
-  },
-  {
     "id": "table-lamp-wicker",
     "title": "Table lamp wicker",
     "sold": false,
@@ -770,6 +759,21 @@ window.ITEMS = [
       "Dining table with cover. Chairs not included."
     ],
     "room": "Kitchen"
+  },
+  {
+    "id": "table-lamp-flower-design",
+    "title": "Table lamp flower design",
+    "sold": true,
+    "photos": [
+      {
+        "label": "",
+        "thumb": "images/thumb/table-lamp-flower-design.jpg?v=eeaa23f3",
+        "full": "images/full/table-lamp-flower-design.jpg?v=5396688c",
+        "w": 600,
+        "h": 800
+      }
+    ],
+    "room": "Bedroom"
   },
   {
     "id": "mitsubishi-pajero-gls",
