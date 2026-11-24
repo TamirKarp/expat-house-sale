@@ -178,35 +178,23 @@ window.ITEMS = [
     "status": "Under offer"
   },
   {
-    "id": "ikea-aheim-804-100-55",
-    "title": "IKEA Aheim 804.100.55",
+    "id": "ikea-bedroom-suite-wardrobe",
+    "title": "IKEA Bedroom Suite + wardrobe",
     "sold": false,
     "photos": [
       {
-        "label": "",
-        "thumb": "images/thumb/ikea-aheim-804-100-55.jpg?v=586ac6cc",
-        "full": "images/full/ikea-aheim-804-100-55.jpg?v=baa8aa4a",
-        "w": 450,
-        "h": 800
-      }
-    ],
-    "description": [
-      "Tall wardrobe with pull out tie rack and drawer.",
-      "193 cm tall and 100 cm wide."
-    ],
-    "room": "Bedroom"
-  },
-  {
-    "id": "ikea-bedroom-suite-mirror",
-    "title": "IKEA Bedroom Suite + mirror",
-    "sold": false,
-    "photos": [
-      {
-        "label": "",
-        "thumb": "images/thumb/ikea-bedroom-suite-mirror.jpg?v=c928146e",
-        "full": "images/full/ikea-bedroom-suite-mirror.jpg?v=cc64f493",
-        "video": "images/video/ikea-bedroom-suite-mirror.mp4?v=8f72369a",
+        "label": "Bedroom suite",
+        "thumb": "images/thumb/ikea-bedroom-suite-wardrobe-bedroom-suite.jpg?v=c928146e",
+        "full": "images/full/ikea-bedroom-suite-wardrobe-bedroom-suite.jpg?v=cc64f493",
+        "video": "images/video/ikea-bedroom-suite-wardrobe-bedroom-suite.mp4?v=8f72369a",
         "w": 453,
+        "h": 800
+      },
+      {
+        "label": "Wardrobe",
+        "thumb": "images/thumb/ikea-bedroom-suite-wardrobe-wardrobe.jpg?v=586ac6cc",
+        "full": "images/full/ikea-bedroom-suite-wardrobe-wardrobe.jpg?v=baa8aa4a",
+        "w": 450,
         "h": 800
       }
     ],
@@ -228,9 +216,22 @@ window.ITEMS = [
         "items": [
           "Bed frame, high, white/Luröy, 160x200 cm"
         ]
+      },
+      {
+        "title": "Wardrobe",
+        "items": [
+          "Tall wardrobe with pull out tie rack and drawer",
+          "193 cm tall and 100 cm wide",
+          "Mirror door: IKEA ÅHEIM 804.100.55"
+        ]
       }
     ],
-    "room": "Bedroom"
+    "room": "Bedroom",
+    "cover": {
+      "thumb": "images/thumb/ikea-bedroom-suite-wardrobe-cover.jpg?v=fe079a74",
+      "w": 800,
+      "h": 800
+    }
   },
   {
     "id": "ikea-vihals-day-bed-00595086-with-afjall-foam-matt-30568642",

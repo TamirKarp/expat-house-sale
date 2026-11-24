@@ -43,8 +43,9 @@
     "room": "Bedroom",
     "touchup": "strong"
   },
-  "IKEA Bedroom Suite + mirror": {
+  "IKEA Bedroom Suite + wardrobe": {
     "room": "Bedroom",
+    "cover": "IKEA Bedroom Suite + wardrobe.jpg",
     "description": [
       {
         "title": "STORKLINTA",
@@ -62,6 +63,14 @@
         "title": "MALM",
         "items": [
           "Bed frame, high, white/Luröy, 160x200 cm"
+        ]
+      },
+      {
+        "title": "Wardrobe",
+        "items": [
+          "Tall wardrobe with pull out tie rack and drawer",
+          "193 cm tall and 100 cm wide",
+          "Mirror door: IKEA ÅHEIM 804.100.55"
         ]
       }
     ]
@@ -129,13 +138,6 @@
     "room": "Living room",
     "description": [
       "Sofa with ottoman. The coffee table and armchair in the photo are not included."
-    ]
-  },
-  "IKEA Aheim 804.100.55": {
-    "room": "Bedroom",
-    "description": [
-      "Tall wardrobe with pull out tie rack and drawer.",
-      "193 cm tall and 100 cm wide."
     ]
   },
   "Wooden dining table": {
