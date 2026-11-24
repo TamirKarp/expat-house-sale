@@ -198,6 +198,8 @@ window.ITEMS = [
         "h": 800
       }
     ],
+    "price": "AED 800 or nearest offer (ONO)",
+    "priceLabel": "Suggested",
     "description": [
       {
         "title": "STORKLINTA",
@@ -228,7 +230,7 @@ window.ITEMS = [
     ],
     "room": "Bedroom",
     "cover": {
-      "thumb": "images/thumb/ikea-bedroom-suite-wardrobe-cover.jpg?v=63407fe2",
+      "thumb": "images/thumb/ikea-bedroom-suite-wardrobe-cover.jpg?v=33c7a5d3",
       "w": 800,
       "h": 800
     }
@@ -739,7 +741,7 @@ window.ITEMS = [
     ],
     "room": "Living room",
     "cover": {
-      "thumb": "images/thumb/wooden-coffee-table-cover.jpg?v=2ee6069b",
+      "thumb": "images/thumb/wooden-coffee-table-cover.jpg?v=45c376fc",
       "w": 648,
       "h": 800
     }

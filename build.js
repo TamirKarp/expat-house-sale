@@ -241,7 +241,7 @@ for (const item of items) {
   }
 }
 
-// Extras from details.json: a price, a description, "room" (Kitchen, Living room, Bedroom or
+// Extras from details.json: a price (shown as "Asking ..." unless "priceLabel" gives another word, such as "Suggested"), a description, "room" (Kitchen, Living room, Bedroom or
 // any name) to file it under a heading, "status": "Under offer" to flag an item that has an offer on it, "cover": a file in photos/covers to use as the tile picture instead of the first photo (the pop-up is unchanged), "last": true to show the item in its own feature row at
 // the bottom of the page, and "touchup": "strong" for photos with a colour cast or uneven light.
 {
@@ -252,6 +252,7 @@ for (const item of items) {
       continue;
     }
     if (extra.price) item.price = extra.price;
+    if (extra.priceLabel) item.priceLabel = extra.priceLabel;
     if (extra.description) item.description = extra.description;
     if (extra.last) item.last = true;
     if (extra.room) item.room = extra.room;

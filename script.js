@@ -65,7 +65,7 @@
     const cap = el("span", "cap");
     const text = el("span", "cap-text");
     text.append(el("span", "cap-title", item.title));
-    if (item.price && !item.sold) text.append(el("span", "cap-price", "Asking " + item.price));
+    if (item.price && !item.sold) text.append(el("span", "cap-price", (item.priceLabel || "Asking") + " " + item.price));
     cap.append(text);
     cap.append(el("span", "cap-cta", item.sold ? "Sold" : item.status ? item.status : "Make an offer →"));
 
@@ -138,7 +138,7 @@
       : "Tell us what you would pay. We consider all offers.";
 
     offerPrice.hidden = !item.price;
-    offerPrice.textContent = item.price ? "Asking " + item.price : "";
+    offerPrice.textContent = item.price ? (item.priceLabel || "Asking") + " " + item.price : "";
     renderDetails(item.description);
     offerBody.scrollTop = 0;
 

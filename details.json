@@ -46,6 +46,8 @@
   "IKEA Bedroom Suite + wardrobe": {
     "room": "Bedroom",
     "cover": "IKEA Bedroom Suite + wardrobe.jpg",
+    "priceLabel": "Suggested",
+    "price": "AED 800 or nearest offer (ONO)",
     "description": [
       {
         "title": "STORKLINTA",
