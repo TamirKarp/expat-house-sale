@@ -177,8 +177,8 @@ window.ITEMS = [
       },
       {
         "label": "Collage",
-        "thumb": "images/thumb/ikea-bedroom-suite-wardrobe-collage.jpg?v=562b86c0",
-        "full": "images/full/ikea-bedroom-suite-wardrobe-collage.jpg?v=a8c416a3",
+        "thumb": "images/thumb/ikea-bedroom-suite-wardrobe-collage.jpg?v=578c52f3",
+        "full": "images/full/ikea-bedroom-suite-wardrobe-collage.jpg?v=2a6e90c7",
         "w": 800,
         "h": 533
       },
@@ -242,7 +242,7 @@ window.ITEMS = [
     ],
     "room": "Bedroom",
     "cover": {
-      "thumb": "images/thumb/ikea-bedroom-suite-wardrobe-cover.jpg?v=562b86c0",
+      "thumb": "images/thumb/ikea-bedroom-suite-wardrobe-cover.jpg?v=578c52f3",
       "w": 800,
       "h": 533
     }
