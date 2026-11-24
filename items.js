@@ -236,7 +236,7 @@ window.ITEMS = [
       {
         "title": "Floating shelves",
         "items": [
-          "IKEA LACK wall shelves, white"
+          "6 x IKEA LACK wall shelves, white, with screws and brackets"
         ]
       }
     ],
