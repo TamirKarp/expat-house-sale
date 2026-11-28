@@ -28,8 +28,7 @@ window.ITEMS = [
         "h": 270
       }
     ],
-    "room": "Living room",
-    "status": "Under offer"
+    "room": "Living room"
   },
   {
     "id": "circular-mirror",
@@ -106,8 +105,7 @@ window.ITEMS = [
         "h": 800
       }
     ],
-    "room": "Living room",
-    "status": "Under offer"
+    "room": "Living room"
   },
   {
     "id": "heavy-duty-gym-floor-tile-x6",
@@ -154,8 +152,7 @@ window.ITEMS = [
         "h": 800
       }
     ],
-    "room": "Kitchen",
-    "status": "Under offer"
+    "room": "Kitchen"
   },
   {
     "id": "ikea-bedroom-suite-wardrobe",
@@ -269,8 +266,7 @@ window.ITEMS = [
         "w": 800,
         "h": 600
       }
-    ],
-    "status": "Under offer"
+    ]
   },
   {
     "id": "kilner-glass-set",
@@ -338,8 +334,7 @@ window.ITEMS = [
         "h": 800
       }
     ],
-    "room": "Kitchen",
-    "status": "Under offer"
+    "room": "Kitchen"
   },
   {
     "id": "large-chest-of-drawers",
@@ -369,8 +364,7 @@ window.ITEMS = [
         "h": 800
       }
     ],
-    "room": "Living room",
-    "status": "Under offer"
+    "room": "Living room"
   },
   {
     "id": "large-dinner-bowls-x8",
@@ -475,8 +469,7 @@ window.ITEMS = [
         "w": 600,
         "h": 800
       }
-    ],
-    "status": "Under offer"
+    ]
   },
   {
     "id": "siemens-62-inch-curved-tv",
@@ -491,8 +484,7 @@ window.ITEMS = [
         "h": 600
       }
     ],
-    "room": "Living room",
-    "status": "Under offer"
+    "room": "Living room"
   },
   {
     "id": "small-bowls-x8",
@@ -580,8 +572,7 @@ window.ITEMS = [
         "h": 800
       }
     ],
-    "room": "Bedroom",
-    "status": "Under offer"
+    "room": "Bedroom"
   },
   {
     "id": "tall-mirror",
@@ -687,7 +678,6 @@ window.ITEMS = [
       }
     ],
     "room": "Living room",
-    "status": "Under offer",
     "cover": {
       "thumb": "images/thumb/wooden-coffee-table-cover.jpg?v=45c376fc",
       "w": 648,
