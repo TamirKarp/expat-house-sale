@@ -135,6 +135,7 @@
   },
   "Wooden coffee table": {
     "room": "Living room",
+    "status": "Under offer",
     "cover": "Wooden coffee table.jpg"
   },
   "Glass-top large coffee table with drawer": {

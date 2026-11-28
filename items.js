@@ -32,6 +32,20 @@ window.ITEMS = [
     "status": "Under offer"
   },
   {
+    "id": "circular-mirror",
+    "title": "Circular mirror",
+    "sold": false,
+    "photos": [
+      {
+        "label": "",
+        "thumb": "images/thumb/circular-mirror.jpg?v=43f8bd3f",
+        "full": "images/full/circular-mirror.jpg?v=d771099d",
+        "w": 600,
+        "h": 800
+      }
+    ]
+  },
+  {
     "id": "dutch-wooden-jungle-gym",
     "title": "Dutch wooden jungle gym",
     "sold": false,
@@ -408,77 +422,18 @@ window.ITEMS = [
     "room": "Kitchen"
   },
   {
-    "id": "large-rimmed-dinner-plates-x4",
-    "title": "Large rimmed Dinner Plates (X4)",
+    "id": "large-studio-mirror",
+    "title": "Large studio mirror",
     "sold": false,
     "photos": [
       {
         "label": "",
-        "thumb": "images/thumb/large-rimmed-dinner-plates-x4.jpg?v=96d0e9cd",
-        "full": "images/full/large-rimmed-dinner-plates-x4.jpg?v=1aaab4bd",
-        "w": 800,
-        "h": 600
-      }
-    ],
-    "room": "Kitchen"
-  },
-  {
-    "id": "porcelain-set",
-    "title": "Porcelain set",
-    "sold": false,
-    "photos": [
-      {
-        "label": "All pieces",
-        "thumb": "images/thumb/porcelain-set-all-pieces.jpg?v=82be1279",
-        "full": "images/full/porcelain-set-all-pieces.jpg?v=c57e830c",
+        "thumb": "images/thumb/large-studio-mirror.jpg?v=27a4f6a2",
+        "full": "images/full/large-studio-mirror.jpg?v=cf35ef90",
         "w": 600,
         "h": 800
-      },
-      {
-        "label": "Blue dish",
-        "thumb": "images/thumb/porcelain-set-blue-dish.jpg?v=c1027a26",
-        "full": "images/full/porcelain-set-blue-dish.jpg?v=59228021",
-        "w": 800,
-        "h": 600
-      },
-      {
-        "label": "Bowls on stand",
-        "thumb": "images/thumb/porcelain-set-bowls-on-stand.jpg?v=a65a7f91",
-        "full": "images/full/porcelain-set-bowls-on-stand.jpg?v=e72b2895",
-        "w": 600,
-        "h": 800
-      },
-      {
-        "label": "Grey dish",
-        "thumb": "images/thumb/porcelain-set-grey-dish.jpg?v=f76ae856",
-        "full": "images/full/porcelain-set-grey-dish.jpg?v=3ed07aae",
-        "w": 800,
-        "h": 600
-      },
-      {
-        "label": "Red dish",
-        "thumb": "images/thumb/porcelain-set-red-dish.jpg?v=948af526",
-        "full": "images/full/porcelain-set-red-dish.jpg?v=94a61cc6",
-        "w": 800,
-        "h": 600
-      },
-      {
-        "label": "Serving dish",
-        "thumb": "images/thumb/porcelain-set-serving-dish.jpg?v=b005d7d4",
-        "full": "images/full/porcelain-set-serving-dish.jpg?v=f7b9ea4e",
-        "w": 800,
-        "h": 600
       }
-    ],
-    "description": [
-      "The blue, grey and red porcelain dishes are oven safe."
-    ],
-    "room": "Kitchen",
-    "cover": {
-      "thumb": "images/thumb/porcelain-set-cover.jpg?v=ffa884e9",
-      "w": 800,
-      "h": 533
-    }
+    ]
   },
   {
     "id": "rose-wood-and-cast-iron-bed-from-luckys-in-2025",
@@ -648,6 +603,20 @@ window.ITEMS = [
     "status": "Under offer"
   },
   {
+    "id": "tall-mirror",
+    "title": "Tall mirror",
+    "sold": false,
+    "photos": [
+      {
+        "label": "",
+        "thumb": "images/thumb/tall-mirror.jpg?v=1676fa92",
+        "full": "images/full/tall-mirror.jpg?v=83dbe97d",
+        "w": 600,
+        "h": 800
+      }
+    ]
+  },
+  {
     "id": "two-fine-glass-water-jugs",
     "title": "Two fine glass water jugs",
     "sold": false,
@@ -737,6 +706,7 @@ window.ITEMS = [
       }
     ],
     "room": "Living room",
+    "status": "Under offer",
     "cover": {
       "thumb": "images/thumb/wooden-coffee-table-cover.jpg?v=45c376fc",
       "w": 648,
@@ -760,6 +730,79 @@ window.ITEMS = [
       "Dining table with cover. Chairs not included."
     ],
     "room": "Kitchen"
+  },
+  {
+    "id": "large-rimmed-dinner-plates-x4",
+    "title": "Large rimmed Dinner Plates (X4)",
+    "sold": true,
+    "photos": [
+      {
+        "label": "",
+        "thumb": "images/thumb/large-rimmed-dinner-plates-x4.jpg?v=96d0e9cd",
+        "full": "images/full/large-rimmed-dinner-plates-x4.jpg?v=1aaab4bd",
+        "w": 800,
+        "h": 600
+      }
+    ],
+    "room": "Kitchen"
+  },
+  {
+    "id": "porcelain-set",
+    "title": "Porcelain set",
+    "sold": true,
+    "photos": [
+      {
+        "label": "All pieces",
+        "thumb": "images/thumb/porcelain-set-all-pieces.jpg?v=82be1279",
+        "full": "images/full/porcelain-set-all-pieces.jpg?v=c57e830c",
+        "w": 600,
+        "h": 800
+      },
+      {
+        "label": "Blue dish",
+        "thumb": "images/thumb/porcelain-set-blue-dish.jpg?v=c1027a26",
+        "full": "images/full/porcelain-set-blue-dish.jpg?v=59228021",
+        "w": 800,
+        "h": 600
+      },
+      {
+        "label": "Bowls on stand",
+        "thumb": "images/thumb/porcelain-set-bowls-on-stand.jpg?v=a65a7f91",
+        "full": "images/full/porcelain-set-bowls-on-stand.jpg?v=e72b2895",
+        "w": 600,
+        "h": 800
+      },
+      {
+        "label": "Grey dish",
+        "thumb": "images/thumb/porcelain-set-grey-dish.jpg?v=f76ae856",
+        "full": "images/full/porcelain-set-grey-dish.jpg?v=3ed07aae",
+        "w": 800,
+        "h": 600
+      },
+      {
+        "label": "Red dish",
+        "thumb": "images/thumb/porcelain-set-red-dish.jpg?v=948af526",
+        "full": "images/full/porcelain-set-red-dish.jpg?v=94a61cc6",
+        "w": 800,
+        "h": 600
+      },
+      {
+        "label": "Serving dish",
+        "thumb": "images/thumb/porcelain-set-serving-dish.jpg?v=b005d7d4",
+        "full": "images/full/porcelain-set-serving-dish.jpg?v=f7b9ea4e",
+        "w": 800,
+        "h": 600
+      }
+    ],
+    "description": [
+      "The blue, grey and red porcelain dishes are oven safe."
+    ],
+    "room": "Kitchen",
+    "cover": {
+      "thumb": "images/thumb/porcelain-set-cover.jpg?v=ffa884e9",
+      "w": 800,
+      "h": 533
+    }
   },
   {
     "id": "table-lamp-flower-design",
