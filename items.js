@@ -322,21 +322,6 @@ window.ITEMS = [
     "room": "Kitchen"
   },
   {
-    "id": "large-and-medium-stainless-steel-skillets",
-    "title": "Large and medium stainless steel skillets",
-    "sold": false,
-    "photos": [
-      {
-        "label": "",
-        "thumb": "images/thumb/large-and-medium-stainless-steel-skillets.jpg?v=1172240e",
-        "full": "images/full/large-and-medium-stainless-steel-skillets.jpg?v=28b5d595",
-        "w": 600,
-        "h": 800
-      }
-    ],
-    "room": "Kitchen"
-  },
-  {
     "id": "large-chest-of-drawers",
     "title": "Large chest of drawers",
     "sold": false,
@@ -717,6 +702,21 @@ window.ITEMS = [
     ],
     "description": [
       "Dimensions: 169.6 cm x 59.5 cm x 65 cm."
+    ],
+    "room": "Kitchen"
+  },
+  {
+    "id": "large-and-medium-stainless-steel-skillets",
+    "title": "Large and medium stainless steel skillets",
+    "sold": true,
+    "photos": [
+      {
+        "label": "",
+        "thumb": "images/thumb/large-and-medium-stainless-steel-skillets.jpg?v=1172240e",
+        "full": "images/full/large-and-medium-stainless-steel-skillets.jpg?v=28b5d595",
+        "w": 600,
+        "h": 800
+      }
     ],
     "room": "Kitchen"
   },
