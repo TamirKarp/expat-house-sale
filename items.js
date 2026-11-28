@@ -871,33 +871,6 @@ window.ITEMS = [
     ]
   },
   {
-    "id": "wooden-coffee-table",
-    "title": "Wooden coffee table",
-    "sold": false,
-    "photos": [
-      {
-        "label": "Side",
-        "thumb": "images/thumb/wooden-coffee-table-side.jpg?v=c61425a6",
-        "full": "images/full/wooden-coffee-table-side.jpg?v=9eefe4b5",
-        "w": 800,
-        "h": 518
-      },
-      {
-        "label": "Top view",
-        "thumb": "images/thumb/wooden-coffee-table-top-view.jpg?v=8149563c",
-        "full": "images/full/wooden-coffee-table-top-view.jpg?v=df493e6d",
-        "w": 600,
-        "h": 800
-      }
-    ],
-    "room": "Living room",
-    "cover": {
-      "thumb": "images/thumb/wooden-coffee-table-cover.jpg?v=45c376fc",
-      "w": 648,
-      "h": 800
-    }
-  },
-  {
     "id": "wooden-dining-table",
     "title": "Wooden dining table",
     "sold": false,
@@ -1057,6 +1030,33 @@ window.ITEMS = [
       }
     ],
     "room": "Bedroom"
+  },
+  {
+    "id": "wooden-coffee-table",
+    "title": "Wooden coffee table",
+    "sold": true,
+    "photos": [
+      {
+        "label": "Side",
+        "thumb": "images/thumb/wooden-coffee-table-side.jpg?v=c61425a6",
+        "full": "images/full/wooden-coffee-table-side.jpg?v=9eefe4b5",
+        "w": 800,
+        "h": 518
+      },
+      {
+        "label": "Top view",
+        "thumb": "images/thumb/wooden-coffee-table-top-view.jpg?v=8149563c",
+        "full": "images/full/wooden-coffee-table-top-view.jpg?v=df493e6d",
+        "w": 600,
+        "h": 800
+      }
+    ],
+    "room": "Living room",
+    "cover": {
+      "thumb": "images/thumb/wooden-coffee-table-cover.jpg?v=45c376fc",
+      "w": 648,
+      "h": 800
+    }
   },
   {
     "id": "mitsubishi-pajero-gls",
