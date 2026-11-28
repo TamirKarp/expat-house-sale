@@ -193,6 +193,7 @@ window.ITEMS = [
     "priceLabel": "Suggested",
     "description": [
       "Everything is in very good condition.",
+      "Every piece is also listed on its own.",
       {
         "title": "STORKLINTA",
         "items": [
@@ -238,6 +239,169 @@ window.ITEMS = [
       "w": 800,
       "h": 533
     }
+  },
+  {
+    "id": "ikea-lack-floating-shelves-x6",
+    "title": "IKEA LACK floating shelves (X6)",
+    "sold": false,
+    "photos": [
+      {
+        "label": "Actual shelves",
+        "thumb": "images/thumb/ikea-lack-floating-shelves-x6-actual-shelves.jpg?v=c56f7c90",
+        "full": "images/full/ikea-lack-floating-shelves-x6-actual-shelves.jpg?v=6c4a7f60",
+        "w": 450,
+        "h": 800
+      },
+      {
+        "label": "IKEA photo",
+        "thumb": "images/thumb/ikea-lack-floating-shelves-x6-ikea-photo.jpg?v=fd850372",
+        "full": "images/full/ikea-lack-floating-shelves-x6-ikea-photo.jpg?v=d781bb4e",
+        "w": 800,
+        "h": 800
+      }
+    ],
+    "description": [
+      "Six IKEA LACK wall shelves, white, with screws and brackets. In very good condition."
+    ],
+    "room": "Bedroom"
+  },
+  {
+    "id": "ikea-malm-bed-frame",
+    "title": "IKEA MALM bed frame",
+    "sold": false,
+    "photos": [
+      {
+        "label": "IKEA photo 1",
+        "thumb": "images/thumb/ikea-malm-bed-frame-ikea-photo-1.jpg?v=5ed04737",
+        "full": "images/full/ikea-malm-bed-frame-ikea-photo-1.jpg?v=6b3171b0",
+        "w": 800,
+        "h": 800
+      },
+      {
+        "label": "IKEA photo 2",
+        "thumb": "images/thumb/ikea-malm-bed-frame-ikea-photo-2.jpg?v=fd207eda",
+        "full": "images/full/ikea-malm-bed-frame-ikea-photo-2.jpg?v=99ee3325",
+        "w": 800,
+        "h": 800
+      },
+      {
+        "label": "IKEA photo 3",
+        "thumb": "images/thumb/ikea-malm-bed-frame-ikea-photo-3.jpg?v=0168f811",
+        "full": "images/full/ikea-malm-bed-frame-ikea-photo-3.jpg?v=bf4c3ddd",
+        "w": 800,
+        "h": 800
+      }
+    ],
+    "description": [
+      "High bed frame, white/Luröy, 160x200 cm. In very good condition.",
+      "Photos shown are IKEA stock images."
+    ],
+    "room": "Bedroom"
+  },
+  {
+    "id": "ikea-malm-chest-of-2-drawers-x2",
+    "title": "IKEA MALM chest of 2 drawers (X2)",
+    "sold": false,
+    "photos": [
+      {
+        "label": "IKEA photo 1",
+        "thumb": "images/thumb/ikea-malm-chest-of-2-drawers-x2-ikea-photo-1.jpg?v=7106fbee",
+        "full": "images/full/ikea-malm-chest-of-2-drawers-x2-ikea-photo-1.jpg?v=3154f3db",
+        "w": 800,
+        "h": 800
+      },
+      {
+        "label": "IKEA photo 2",
+        "thumb": "images/thumb/ikea-malm-chest-of-2-drawers-x2-ikea-photo-2.jpg?v=84667b13",
+        "full": "images/full/ikea-malm-chest-of-2-drawers-x2-ikea-photo-2.jpg?v=81afac5c",
+        "w": 800,
+        "h": 800
+      },
+      {
+        "label": "IKEA photo 3",
+        "thumb": "images/thumb/ikea-malm-chest-of-2-drawers-x2-ikea-photo-3.jpg?v=0224b5c0",
+        "full": "images/full/ikea-malm-chest-of-2-drawers-x2-ikea-photo-3.jpg?v=36116197",
+        "w": 800,
+        "h": 800
+      }
+    ],
+    "description": [
+      "Two available. White, 40x55 cm. In very good condition.",
+      "Photos shown are IKEA stock images."
+    ],
+    "room": "Bedroom"
+  },
+  {
+    "id": "ikea-nissedal-mirror",
+    "title": "IKEA NISSEDAL mirror",
+    "sold": false,
+    "photos": [
+      {
+        "label": "",
+        "thumb": "images/thumb/ikea-nissedal-mirror.jpg?v=f65e2bb2",
+        "full": "images/full/ikea-nissedal-mirror.jpg?v=fb19503e",
+        "w": 800,
+        "h": 800
+      }
+    ],
+    "description": [
+      "White, 40x150 cm. In very good condition.",
+      "Photo shown is an IKEA stock image."
+    ],
+    "room": "Bedroom"
+  },
+  {
+    "id": "ikea-pax-double-wardrobe-with-aheim-mirror-door",
+    "title": "IKEA PAX double wardrobe with Aheim mirror door",
+    "sold": false,
+    "photos": [
+      {
+        "label": "",
+        "thumb": "images/thumb/ikea-pax-double-wardrobe-with-aheim-mirror-door.jpg?v=586ac6cc",
+        "full": "images/full/ikea-pax-double-wardrobe-with-aheim-mirror-door.jpg?v=baa8aa4a",
+        "w": 450,
+        "h": 800
+      }
+    ],
+    "description": [
+      "PAX double wardrobe with ÅHEIM mirror door (804.100.55). In very good condition.",
+      "Tall wardrobe with pull out tie rack and drawer.",
+      "193 cm tall and 100 cm wide."
+    ],
+    "room": "Bedroom"
+  },
+  {
+    "id": "ikea-storklinta-chest-of-6-drawers",
+    "title": "IKEA STORKLINTA chest of 6 drawers",
+    "sold": false,
+    "photos": [
+      {
+        "label": "IKEA photo 1",
+        "thumb": "images/thumb/ikea-storklinta-chest-of-6-drawers-ikea-photo-1.jpg?v=c1b3ae18",
+        "full": "images/full/ikea-storklinta-chest-of-6-drawers-ikea-photo-1.jpg?v=6585d449",
+        "w": 800,
+        "h": 800
+      },
+      {
+        "label": "IKEA photo 2",
+        "thumb": "images/thumb/ikea-storklinta-chest-of-6-drawers-ikea-photo-2.jpg?v=f31e5343",
+        "full": "images/full/ikea-storklinta-chest-of-6-drawers-ikea-photo-2.jpg?v=2619da03",
+        "w": 800,
+        "h": 800
+      },
+      {
+        "label": "IKEA photo 3",
+        "thumb": "images/thumb/ikea-storklinta-chest-of-6-drawers-ikea-photo-3.jpg?v=362b62e5",
+        "full": "images/full/ikea-storklinta-chest-of-6-drawers-ikea-photo-3.jpg?v=34693461",
+        "w": 800,
+        "h": 800
+      }
+    ],
+    "description": [
+      "White, 140x50x75 cm. In very good condition.",
+      "Photos shown are IKEA stock images."
+    ],
+    "room": "Bedroom"
   },
   {
     "id": "ikea-vihals-day-bed-00595086-with-afjall-foam-matt-30568642",

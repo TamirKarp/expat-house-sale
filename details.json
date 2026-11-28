@@ -39,6 +39,48 @@
     "room": "Bedroom",
     "touchup": "strong"
   },
+  "IKEA STORKLINTA chest of 6 drawers": {
+    "room": "Bedroom",
+    "description": [
+      "White, 140x50x75 cm. In very good condition.",
+      "Photos shown are IKEA stock images."
+    ]
+  },
+  "IKEA MALM chest of 2 drawers (X2)": {
+    "room": "Bedroom",
+    "description": [
+      "Two available. White, 40x55 cm. In very good condition.",
+      "Photos shown are IKEA stock images."
+    ]
+  },
+  "IKEA MALM bed frame": {
+    "room": "Bedroom",
+    "description": [
+      "High bed frame, white/Luröy, 160x200 cm. In very good condition.",
+      "Photos shown are IKEA stock images."
+    ]
+  },
+  "IKEA PAX double wardrobe with Aheim mirror door": {
+    "room": "Bedroom",
+    "description": [
+      "PAX double wardrobe with ÅHEIM mirror door (804.100.55). In very good condition.",
+      "Tall wardrobe with pull out tie rack and drawer.",
+      "193 cm tall and 100 cm wide."
+    ]
+  },
+  "IKEA NISSEDAL mirror": {
+    "room": "Bedroom",
+    "description": [
+      "White, 40x150 cm. In very good condition.",
+      "Photo shown is an IKEA stock image."
+    ]
+  },
+  "IKEA LACK floating shelves (X6)": {
+    "room": "Bedroom",
+    "description": [
+      "Six IKEA LACK wall shelves, white, with screws and brackets. In very good condition."
+    ]
+  },
   "IKEA Bedroom Suite + wardrobe": {
     "room": "Bedroom",
     "cover": "IKEA Bedroom Suite + wardrobe.jpg",
@@ -46,6 +88,7 @@
     "price": "AED 600 or nearest offer",
     "description": [
       "Everything is in very good condition.",
+      "Every piece is also listed on its own.",
       {
         "title": "STORKLINTA",
         "items": [
