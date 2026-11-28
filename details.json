@@ -196,6 +196,12 @@
   "Three seat corner sofa": {
     "room": "Living room"
   },
+  "Vacuum cleaner": {
+    "description": [
+      "Black+Decker vacuum cleaner, 1600W max input power.",
+      "Comes with the hose, floor head, brush and crevice tool."
+    ]
+  },
   "Kettlebells and barbell weight set": {},
   "Shoe cabinet": {},
   "Two Maxi Cosi Titan Pro i-size car seats": {

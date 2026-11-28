@@ -672,6 +672,31 @@ window.ITEMS = [
     ]
   },
   {
+    "id": "vacuum-cleaner",
+    "title": "Vacuum cleaner",
+    "sold": false,
+    "photos": [
+      {
+        "label": "Close up",
+        "thumb": "images/thumb/vacuum-cleaner-close-up.jpg?v=44dd364b",
+        "full": "images/full/vacuum-cleaner-close-up.jpg?v=fb843173",
+        "w": 800,
+        "h": 600
+      },
+      {
+        "label": "Full set",
+        "thumb": "images/thumb/vacuum-cleaner-full-set.jpg?v=c74870fa",
+        "full": "images/full/vacuum-cleaner-full-set.jpg?v=70ef3075",
+        "w": 600,
+        "h": 800
+      }
+    ],
+    "description": [
+      "Black+Decker vacuum cleaner, 1600W max input power.",
+      "Comes with the hose, floor head, brush and crevice tool."
+    ]
+  },
+  {
     "id": "wooden-coffee-table",
     "title": "Wooden coffee table",
     "sold": false,
