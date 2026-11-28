@@ -189,7 +189,7 @@ window.ITEMS = [
         "h": 800
       }
     ],
-    "price": "AED 800 or nearest offer",
+    "price": "AED 600 or nearest offer",
     "priceLabel": "Suggested",
     "description": [
       "Everything is in very good condition.",
