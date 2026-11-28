@@ -588,6 +588,21 @@ window.ITEMS = [
     ]
   },
   {
+    "id": "three-seat-corner-sofa",
+    "title": "Three seat corner sofa",
+    "sold": false,
+    "photos": [
+      {
+        "label": "",
+        "thumb": "images/thumb/three-seat-corner-sofa.jpg?v=ae8cd323",
+        "full": "images/full/three-seat-corner-sofa.jpg?v=55e17cda",
+        "w": 800,
+        "h": 600
+      }
+    ],
+    "room": "Living room"
+  },
+  {
     "id": "two-fine-glass-water-jugs",
     "title": "Two fine glass water jugs",
     "sold": false,
