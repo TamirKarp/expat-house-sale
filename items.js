@@ -560,6 +560,20 @@ window.ITEMS = [
     "room": "Bedroom"
   },
   {
+    "id": "table-lamps-x2",
+    "title": "Table lamps (X2)",
+    "sold": false,
+    "photos": [
+      {
+        "label": "",
+        "thumb": "images/thumb/table-lamps-x2.jpg?v=48ba5069",
+        "full": "images/full/table-lamps-x2.jpg?v=e9b31519",
+        "w": 600,
+        "h": 800
+      }
+    ]
+  },
+  {
     "id": "tall-mirror",
     "title": "Tall mirror",
     "sold": false,
