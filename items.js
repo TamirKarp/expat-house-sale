@@ -38,8 +38,8 @@ window.ITEMS = [
     "photos": [
       {
         "label": "",
-        "thumb": "images/thumb/circular-mirror.jpg?v=43f8bd3f",
-        "full": "images/full/circular-mirror.jpg?v=d771099d",
+        "thumb": "images/thumb/circular-mirror.jpg?v=36addbac",
+        "full": "images/full/circular-mirror.jpg?v=7dd6f752",
         "w": 600,
         "h": 800
       }
@@ -409,8 +409,8 @@ window.ITEMS = [
     "photos": [
       {
         "label": "",
-        "thumb": "images/thumb/large-studio-mirror.jpg?v=27a4f6a2",
-        "full": "images/full/large-studio-mirror.jpg?v=cf35ef90",
+        "thumb": "images/thumb/large-studio-mirror.jpg?v=a30f2dcd",
+        "full": "images/full/large-studio-mirror.jpg?v=a5ffa2a0",
         "w": 600,
         "h": 800
       }
