@@ -133,28 +133,6 @@ window.ITEMS = [
     ]
   },
   {
-    "id": "hoover-5-hob-cooker-gas-hob-and-electric-oven",
-    "title": "Hoover 5-hob cooker, gas hob and electric oven",
-    "sold": false,
-    "photos": [
-      {
-        "label": "Front",
-        "thumb": "images/thumb/hoover-5-hob-cooker-gas-hob-and-electric-oven-front.jpg?v=7d49e9c1",
-        "full": "images/full/hoover-5-hob-cooker-gas-hob-and-electric-oven-front.jpg?v=7272eca8",
-        "w": 600,
-        "h": 800
-      },
-      {
-        "label": "Top",
-        "thumb": "images/thumb/hoover-5-hob-cooker-gas-hob-and-electric-oven-top.jpg?v=6a09fb6c",
-        "full": "images/full/hoover-5-hob-cooker-gas-hob-and-electric-oven-top.jpg?v=ef26701e",
-        "w": 600,
-        "h": 800
-      }
-    ],
-    "room": "Kitchen"
-  },
-  {
     "id": "ikea-bedroom-suite-wardrobe",
     "title": "IKEA Bedroom Suite + wardrobe",
     "sold": false,
@@ -952,6 +930,28 @@ window.ITEMS = [
     ],
     "description": [
       "Dimensions: 169.6 cm x 59.5 cm x 65 cm."
+    ],
+    "room": "Kitchen"
+  },
+  {
+    "id": "hoover-5-hob-cooker-gas-hob-and-electric-oven",
+    "title": "Hoover 5-hob cooker, gas hob and electric oven",
+    "sold": true,
+    "photos": [
+      {
+        "label": "Front",
+        "thumb": "images/thumb/hoover-5-hob-cooker-gas-hob-and-electric-oven-front.jpg?v=7d49e9c1",
+        "full": "images/full/hoover-5-hob-cooker-gas-hob-and-electric-oven-front.jpg?v=7272eca8",
+        "w": 600,
+        "h": 800
+      },
+      {
+        "label": "Top",
+        "thumb": "images/thumb/hoover-5-hob-cooker-gas-hob-and-electric-oven-top.jpg?v=6a09fb6c",
+        "full": "images/full/hoover-5-hob-cooker-gas-hob-and-electric-oven-top.jpg?v=ef26701e",
+        "w": 600,
+        "h": 800
+      }
     ],
     "room": "Kitchen"
   },
