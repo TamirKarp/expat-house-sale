@@ -691,6 +691,38 @@ window.ITEMS = [
     "room": "Living room"
   },
   {
+    "id": "steam-iron",
+    "title": "Steam iron",
+    "sold": false,
+    "photos": [
+      {
+        "label": "Side",
+        "thumb": "images/thumb/steam-iron-side.jpg?v=17e8a69b",
+        "full": "images/full/steam-iron-side.jpg?v=7019c5d9",
+        "w": 600,
+        "h": 800
+      },
+      {
+        "label": "Soleplate",
+        "thumb": "images/thumb/steam-iron-soleplate.jpg?v=dc1ca7be",
+        "full": "images/full/steam-iron-soleplate.jpg?v=0b0718e6",
+        "w": 600,
+        "h": 800
+      },
+      {
+        "label": "Temperature dial",
+        "thumb": "images/thumb/steam-iron-temperature-dial.jpg?v=e93090fb",
+        "full": "images/full/steam-iron-temperature-dial.jpg?v=5462efe1",
+        "w": 800,
+        "h": 600
+      }
+    ],
+    "description": [
+      "Black+Decker steam iron, 2200W, with a ceramic coated soleplate and self clean function.",
+      "Still under its 2 year warranty."
+    ]
+  },
+  {
     "id": "stools-height-adjustable-six-available",
     "title": "Stools - height adjustable (six available)",
     "sold": false,

@@ -258,5 +258,11 @@
       "There are six available.",
       "Perfect for a home or outdoor spot to do your workout, protecting your flooring from heavy weights."
     ]
+  },
+  "Steam iron": {
+    "description": [
+      "Black+Decker steam iron, 2200W, with a ceramic coated soleplate and self clean function.",
+      "Still under its 2 year warranty."
+    ]
   }
 }
