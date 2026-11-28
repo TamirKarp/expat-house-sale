@@ -135,25 +135,6 @@ window.ITEMS = [
     ]
   },
   {
-    "id": "hisense-top-mount-refrigerator-418-litres-rt3n418nai",
-    "title": "Hisense Top Mount Refrigerator 418 Litres RT3N418NAI",
-    "sold": false,
-    "photos": [
-      {
-        "label": "",
-        "thumb": "images/thumb/hisense-top-mount-refrigerator-418-litres-rt3n418nai.jpg?v=566352de",
-        "full": "images/full/hisense-top-mount-refrigerator-418-litres-rt3n418nai.jpg?v=d78b924b",
-        "w": 349,
-        "h": 800
-      }
-    ],
-    "description": [
-      "Dimensions: 169.6 cm x 59.5 cm x 65 cm."
-    ],
-    "room": "Kitchen",
-    "status": "Under offer"
-  },
-  {
     "id": "hoover-5-hob-cooker-gas-hob-and-electric-oven",
     "title": "Hoover 5-hob cooker, gas hob and electric oven",
     "sold": false,
@@ -728,6 +709,24 @@ window.ITEMS = [
     ],
     "description": [
       "Dining table with cover. Chairs not included."
+    ],
+    "room": "Kitchen"
+  },
+  {
+    "id": "hisense-top-mount-refrigerator-418-litres-rt3n418nai",
+    "title": "Hisense Top Mount Refrigerator 418 Litres RT3N418NAI",
+    "sold": true,
+    "photos": [
+      {
+        "label": "",
+        "thumb": "images/thumb/hisense-top-mount-refrigerator-418-litres-rt3n418nai.jpg?v=566352de",
+        "full": "images/full/hisense-top-mount-refrigerator-418-litres-rt3n418nai.jpg?v=d78b924b",
+        "w": 349,
+        "h": 800
+      }
+    ],
+    "description": [
+      "Dimensions: 169.6 cm x 59.5 cm x 65 cm."
     ],
     "room": "Kitchen"
   },
