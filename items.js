@@ -574,14 +574,14 @@ window.ITEMS = [
     ]
   },
   {
-    "id": "tall-mirror",
-    "title": "Tall mirror",
+    "id": "tall-mirror-not-glass",
+    "title": "Tall mirror (not glass)",
     "sold": false,
     "photos": [
       {
         "label": "",
-        "thumb": "images/thumb/tall-mirror.jpg?v=1676fa92",
-        "full": "images/full/tall-mirror.jpg?v=83dbe97d",
+        "thumb": "images/thumb/tall-mirror-not-glass.jpg?v=1676fa92",
+        "full": "images/full/tall-mirror-not-glass.jpg?v=83dbe97d",
         "w": 600,
         "h": 800
       }
